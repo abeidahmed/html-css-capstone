@@ -30,9 +30,6 @@ $spacings: (
   12: (
     $default * 12,
   ),
-  20: (
-    $default * 20,
-  ),
 ) !default;
 
 @each $breakpoint in map-keys($breakpoints) {
