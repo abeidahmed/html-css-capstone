@@ -43,3 +43,18 @@
     background-color: darken($primary, 5%);
   }
 }
+
+.btn--primary.btn--minimal {
+  border-color: $primary;
+  background-color: transparent;
+  color: $primary;
+
+  &:hover {
+    background-color: $primary-lightest;
+  }
+}
+
+.btn--sm {
+  padding: 6px 12px;
+  font-size: 14px;
+}

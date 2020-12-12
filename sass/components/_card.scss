@@ -18,6 +18,25 @@
   margin-bottom: -4rem;
 }
 
+.card__image-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $gray-900;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 8px;
+  z-index: 10;
+}
+
+.card__image-tag {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  z-index: 10;
+}
+
 .card-group--overflowed {
   @include breakpoint(sm) {
     overflow-x: auto;
@@ -27,6 +46,18 @@
     .card {
       width: 20rem;
       flex-shrink: 0;
+    }
+  }
+}
+
+.horizontal-card {
+  @include breakpoint(lg) {
+    padding-bottom: 0;
+    display: flex;
+    width: 250px;
+
+    .card-aspect-ratio__target {
+      position: static;
     }
   }
 }
