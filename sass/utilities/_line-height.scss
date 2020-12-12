@@ -1,0 +1,11 @@
+$default-line-height: 4px;
+
+$line-heights: (
+  5: $default-line-height * 5,
+);
+
+@each $prop, $value in $line-heights {
+  .leading-#{$prop} {
+    line-height: $value;
+  }
+}
