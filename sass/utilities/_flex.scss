@@ -1,0 +1,20 @@
+$align-items: (
+  center: center,
+);
+
+@each $prop, $value in $align-items {
+  .items-#{$prop} {
+    align-items: $value;
+  }
+}
+
+$justify-contents: (
+  between: space-between,
+  center: center,
+);
+
+@each $prop, $value in $justify-contents {
+  .justify-#{$prop} {
+    justify-content: $value;
+  }
+}

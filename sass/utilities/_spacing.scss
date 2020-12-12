@@ -1,0 +1,72 @@
+$default: 4px;
+
+$spacings: (
+  auto: auto,
+  0: 0,
+  1: (
+    $default * 1,
+  ),
+  2: (
+    $default * 2,
+  ),
+  3: (
+    $default * 3,
+  ),
+  4: (
+    $default * 4,
+  ),
+  5: (
+    $default * 5,
+  ),
+) !default;
+
+@each $breakpoint in map-keys($breakpoints) {
+  $bp-sort: breakpoint-infix($breakpoint);
+  @include breakpoint($breakpoint) {
+    @each $value, $space in $spacings {
+      @each $prop, $initial in (margin: m, padding: p) {
+        .#{$bp-sort}#{$initial}-#{$value} {
+          #{$prop}: $space;
+        }
+        .#{$bp-sort}#{$initial}t-#{$value},
+        .#{$bp-sort}#{$initial}y-#{$value} {
+          #{$prop}-top: $space;
+        }
+        .#{$bp-sort}#{$initial}b-#{$value},
+        .#{$bp-sort}#{$initial}y-#{$value} {
+          #{$prop}-bottom: $space;
+        }
+        .#{$bp-sort}#{$initial}l-#{$value},
+        .#{$bp-sort}#{$initial}x-#{$value} {
+          #{$prop}-left: $space;
+        }
+        .#{$bp-sort}#{$initial}r-#{$value},
+        .#{$bp-sort}#{$initial}x-#{$value} {
+          #{$prop}-right: $space;
+        }
+
+        @if $value != auto or $value != 0 {
+          .-#{$bp-sort}#{$initial}-#{$value} {
+            #{$prop}: -$space;
+          }
+          .-#{$bp-sort}#{$initial}t-#{$value},
+          .-#{$bp-sort}#{$initial}y-#{$value} {
+            #{$prop}-top: -$space;
+          }
+          .-#{$bp-sort}#{$initial}b-#{$value},
+          .-#{$bp-sort}#{$initial}y-#{$value} {
+            #{$prop}-bottom: -$space;
+          }
+          .-#{$bp-sort}#{$initial}l-#{$value},
+          .-#{$bp-sort}#{$initial}x-#{$value} {
+            #{$prop}-left: -$space;
+          }
+          .-#{$bp-sort}#{$initial}r-#{$value},
+          .-#{$bp-sort}#{$initial}x-#{$value} {
+            #{$prop}-right: -$space;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+$backgrounds: (
+  dark: $gray-800,
+);
+
+@each $prop, $value in $backgrounds {
+  .bg-#{$prop} {
+    background-color: $value;
+  }
+}

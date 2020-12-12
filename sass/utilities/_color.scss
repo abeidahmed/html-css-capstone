@@ -1,0 +1,9 @@
+$colors: (
+  white: #fff,
+);
+
+@each $prop, $value in $colors {
+  .text-#{$prop} {
+    color: $value;
+  }
+}

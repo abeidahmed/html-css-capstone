@@ -1,0 +1,11 @@
+$default-height-width: 4px;
+
+$height-widths: (
+  14: $default-height-width * 14,
+);
+
+@each $prop, $value in $height-widths {
+  .h-#{$prop} {
+    height: $value;
+  }
+}
