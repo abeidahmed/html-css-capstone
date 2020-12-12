@@ -1,0 +1,18 @@
+.card-aspect-ratio {
+  position: relative;
+}
+
+.card-aspect-ratio__target {
+  @include inset-full;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-aspect-ratio--56 {
+  padding-bottom: 56%;
+}
+
+.card-meta--uplifted {
+  transform: translateY(-50%);
+}

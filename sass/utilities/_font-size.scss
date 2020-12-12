@@ -1,6 +1,7 @@
 $font-sizes: (
   xs: 12px,
   sm: 14px,
+  lg: 18px,
 );
 
 @each $prop, $value in $font-sizes {
