@@ -31,6 +31,16 @@
   }
 }
 
+.btn--default {
+  background-color: #fff;
+  color: $gray-700;
+  border-color: $gray-300;
+
+  &:hover {
+    color: $gray-500;
+  }
+}
+
 .btn--primary {
   color: #fff;
   background-color: $primary;

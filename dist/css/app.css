@@ -342,6 +342,16 @@ video {
   background-color: #080d17;
 }
 
+.btn--default {
+  background-color: #fff;
+  color: #334155;
+  border-color: #d4d4d8;
+}
+
+.btn--default:hover {
+  color: #888888;
+}
+
 .btn--primary {
   color: #fff;
   background-color: #d35266;
@@ -5324,6 +5334,10 @@ video {
   }
 }
 
+.-space-x-px > * + * {
+  margin-left: -1px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -5428,6 +5442,18 @@ video {
   text-transform: uppercase;
 }
 
+.border {
+  border: 1px solid;
+}
+
+.border-gray-200 {
+  border-color: #e2e8f0;
+}
+
+.border-gray-300 {
+  border-color: #d4d4d8;
+}
+
 .border-gray-600 {
   border-color: #475569;
 }
@@ -5444,6 +5470,20 @@ video {
 .rounded-r-0 {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.rounded-md {
+  border-radius: 6px;
+}
+
+.rounded-l-md {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.rounded-r-md {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .rounded-lg {
@@ -5472,6 +5512,17 @@ video {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
+  .sm\:rounded-md {
+    border-radius: 6px;
+  }
+  .sm\:rounded-l-md {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .sm\:rounded-r-md {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
   .sm\:rounded-lg {
     border-radius: 8px;
   }
@@ -5496,6 +5547,17 @@ video {
   .md\:rounded-r-0 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+  }
+  .md\:rounded-md {
+    border-radius: 6px;
+  }
+  .md\:rounded-l-md {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .md\:rounded-r-md {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
   }
   .md\:rounded-lg {
     border-radius: 8px;
@@ -5522,6 +5584,17 @@ video {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
+  .lg\:rounded-md {
+    border-radius: 6px;
+  }
+  .lg\:rounded-l-md {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .lg\:rounded-r-md {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
   .lg\:rounded-lg {
     border-radius: 8px;
   }
@@ -5547,6 +5620,17 @@ video {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
+  .xl\:rounded-md {
+    border-radius: 6px;
+  }
+  .xl\:rounded-l-md {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .xl\:rounded-r-md {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
   .xl\:rounded-lg {
     border-radius: 8px;
   }
@@ -5558,6 +5642,11 @@ video {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
   }
+}
+
+.shadow-sm {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .shadow {

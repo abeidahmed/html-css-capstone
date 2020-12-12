@@ -90,3 +90,7 @@ $spacings: (
     }
   }
 }
+
+.-space-x-px > * + * {
+  margin-left: -1px;
+}
