@@ -3,6 +3,7 @@ $displays: (
   hidden: none,
   block: block,
   grid: grid,
+  inline-flex: inline-flex,
 );
 
 @each $breakpoint in map-keys($breakpoints) {
