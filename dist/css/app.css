@@ -805,6 +805,12 @@ video {
           align-items: center;
 }
 
+.items-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .justify-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;

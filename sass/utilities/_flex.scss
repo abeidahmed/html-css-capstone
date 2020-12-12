@@ -1,5 +1,6 @@
 $align-items: (
   center: center,
+  start: flex-start,
 );
 
 @each $prop, $value in $align-items {
