@@ -1,5 +1,7 @@
 $colors: (
   white: #fff,
+  gray-500: $gray-500,
+  primary: $primary,
 );
 
 @each $prop, $value in $colors {
