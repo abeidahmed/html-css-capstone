@@ -1,5 +1,6 @@
 $displays: (
   flex: flex,
+  hidden: none,
 );
 
 @each $breakpoint in map-keys($breakpoints) {
