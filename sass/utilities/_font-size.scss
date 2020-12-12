@@ -1,0 +1,9 @@
+$font-sizes: (
+  sm: 14px,
+);
+
+@each $prop, $value in $font-sizes {
+  .text-#{$prop} {
+    font-size: $value;
+  }
+}
