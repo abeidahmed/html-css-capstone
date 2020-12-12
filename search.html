@@ -138,9 +138,104 @@
         </div>
       </section>
       <section class="mt-6 max-w-7xl mx-auto px-4">
-        <div class="mt-6 lg:grid lg:grid-cols-3">
+        <div class="mt-6 lg:grid lg:grid-cols-3 gap-x-12">
           <aside class="hidden lg:block lg:col-span-1">
-            hello
+            <div class="flex items-center justify-between space-x-5">
+              <div class="flex-1">
+                <label for="room-select" class="input-label">Rooms</label>
+                <select id="room-select" class="form-select block w-full text-sm focus:form-select">
+                  <option value="2-4">2 rooms</option>
+                  <option value="2-4">4 rooms</option>
+                  <option value="2-4">6 rooms</option>
+                  <option value="2-4">7+ rooms</option>
+                </select>
+              </div>
+              <div class="flex-1">
+                <label for="bath-select" class="input-label">Bathrooms</label>
+                <select id="bath-select" class="form-select block w-full text-sm focus:form-select">
+                  <option value="2-4">2 bath</option>
+                  <option value="2-4">4 bath</option>
+                  <option value="2-4">6 bath</option>
+                  <option value="2-4">7+ bath</option>
+                </select>
+              </div>
+            </div>
+            <hr class="border-gray-200 my-4" />
+            <div>
+              <span class="input-label">Property type</span>
+              <div class="flex flex-col space-y-4">
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio focus:form-radio"
+                    name="propertyType"
+                    value="house"
+                  />
+                  <span class="ml-2 leading-5 block">House</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio focus:form-radio"
+                    name="propertyType"
+                    value="apartment"
+                  />
+                  <span class="ml-2 leading-5 block">Apartment</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio focus:form-radio"
+                    name="propertyType"
+                    value="loftHouse"
+                  />
+                  <span class="ml-2 leading-5 block">Loft house</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio focus:form-radio"
+                    name="propertyType"
+                    value="townHouse"
+                  />
+                  <span class="ml-2 leading-5 block">Town house</span>
+                </label>
+              </div>
+            </div>
+            <hr class="border-gray-200 my-4" />
+            <div>
+              <span class="input-label">Amenities</span>
+              <div class="space-y-4 flex flex-col">
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Balcony</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Pool</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Beach</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Pet friendly</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Kid friendly</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Parking</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Air conditioning</span>
+                </label>
+              </div>
+            </div>
           </aside>
           <div class="lg:col-span-2">
             <p class="text-sm text-gray-500 leading-5">
