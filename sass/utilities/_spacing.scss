@@ -30,6 +30,9 @@ $spacings: (
   12: (
     $default * 12,
   ),
+  20: (
+    $default * 20,
+  ),
 ) !default;
 
 @each $breakpoint in map-keys($breakpoints) {
@@ -78,6 +81,14 @@ $spacings: (
             #{$prop}-right: -$space;
           }
         }
+      }
+
+      .#{$bp-sort}space-y-#{$value} > * + * {
+        margin-top: $space;
+      }
+
+      .#{$bp-sort}space-x-#{$value} > * + * {
+        margin-left: $space;
       }
     }
   }
