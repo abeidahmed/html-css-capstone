@@ -1,0 +1,28 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  position: relative;
+  border-radius: 6px;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: all 150ms ease-in-out;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn--primary {
+  color: #fff;
+  background-color: $primary;
+
+  &:hover {
+    background-color: lighten($primary, 3%);
+  }
+
+  &:active {
+    background-color: darken($primary, 5%);
+  }
+}
