@@ -373,7 +373,7 @@ video {
   font-weight: 500;
 }
 
-.bg-dark {
+.bg-gray-800 {
   background-color: #383838;
 }
 
@@ -4077,8 +4077,20 @@ video {
   }
 }
 
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .h-14 {
   height: 56px;
+}
+
+.w-14 {
+  width: 56px;
 }
 
 .text-white {
@@ -4135,5 +4147,9 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.border-gray-600 {
+  border-color: #475569;
 }
 /*# sourceMappingURL=app.css.map */

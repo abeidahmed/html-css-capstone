@@ -1,0 +1,9 @@
+$border-colors: (
+  gray-600: $gray-600,
+);
+
+@each $prop, $value in $border-colors {
+  .border-#{$prop} {
+    border-color: $value;
+  }
+}

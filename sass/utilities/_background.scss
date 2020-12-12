@@ -1,5 +1,5 @@
 $backgrounds: (
-  dark: $gray-800,
+  gray-800: $gray-800,
 );
 
 @each $prop, $value in $backgrounds {
