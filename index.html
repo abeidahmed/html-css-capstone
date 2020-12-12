@@ -3,15 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
-      defer
-    ></script>
     <link rel="stylesheet" href="./dist/css/app.css" />
     <title>Workflow workcation</title>
   </head>
   <body class="text-gray-900">
-    <header class="bg-gray-800 px-4" x-data="{ menuOpen: false }">
+    <header class="bg-gray-800 px-4">
       <div class="max-w-7xl flex items-center justify-between h-14 mx-auto">
         <div class="flex items-center">
           <a href="/">
@@ -121,46 +117,27 @@
             </span>
           </button>
         </div>
-        <div @click="menuOpen = !menuOpen" class="flex items-center justify-center md:hidden">
+        <div class="flex items-center justify-center md:hidden">
           <button class="text-white">
-            <span x-show="!menuOpen">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                width="24"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                />
-              </svg>
-            </span>
-            <span x-show="menuOpen">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                width="24"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              width="24"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
           </button>
         </div>
       </div>
-      <div x-show="menuOpen" class="bg-gray-800 pb-6 pt-3 md:hidden">
+      <div class="bg-gray-800 pb-6 pt-3 md:hidden">
         <nav>
           <a href="#" class="flex items-center text-primary py-2">
             <svg
