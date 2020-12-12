@@ -14,6 +14,23 @@
   line-height: 20px;
 }
 
+.search__btn {
+  background-color: $gray-900;
+  color: #fff;
+  width: 100%;
+  line-height: 24px;
+  padding: 12px 48px;
+  border-color: $gray-900;
+
+  &:hover {
+    background-color: lighten($gray-900, 3%);
+  }
+
+  &:active {
+    background-color: darken($gray-900, 5%);
+  }
+}
+
 .btn--primary {
   color: #fff;
   background-color: $primary;

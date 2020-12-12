@@ -1,0 +1,23 @@
+$border-radius: (
+  0: 0,
+  lg: 8px,
+);
+
+@each $breakpoint in map-keys($breakpoints) {
+  $bp-sort: breakpoint-infix($breakpoint);
+  @include breakpoint($breakpoint) {
+    @each $prop, $value in $border-radius {
+      .#{$bp-sort}rounded-#{$prop} {
+        border-radius: $value;
+      }
+      .#{$bp-sort}rounded-l-#{$prop} {
+        border-top-left-radius: $value;
+        border-bottom-left-radius: $value;
+      }
+      .#{$bp-sort}rounded-r-#{$prop} {
+        border-top-right-radius: $value;
+        border-bottom-right-radius: $value;
+      }
+    }
+  }
+}
