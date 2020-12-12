@@ -1,0 +1,46 @@
+.mobile-nav {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 56px;
+  width: 100%;
+  z-index: 50;
+}
+
+.header__burger-bar {
+  display: block;
+  width: 1.7em;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+
+.header__toggle {
+  @include sr-only;
+}
+
+.header__toggle:checked ~ .mobile-nav {
+  display: block;
+}
+
+.header__toggle:checked + .header__burger > div {
+  transition: all 0.4s ease;
+
+  &:nth-child(1) {
+    transform: rotate(-45deg) translate(-9px, 2px);
+  }
+
+  &:nth-child(2) {
+    opacity: 0;
+    width: 0;
+  }
+
+  &:nth-last-child(1) {
+    transform: rotate(45deg) translate(-9px, -3px);
+  }
+}
+
+.header__toggle:not(:checked) + .header__burger > div {
+  transition: all 0.4s ease;
+}
