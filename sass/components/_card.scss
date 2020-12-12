@@ -9,10 +9,24 @@
   object-fit: cover;
 }
 
-.card-aspect-ratio--56 {
-  padding-bottom: 56%;
+.card-aspect-ratio--70 {
+  padding-bottom: 70%;
 }
 
 .card-meta--uplifted {
   transform: translateY(-50%);
+  margin-bottom: -4rem;
+}
+
+.card-group--overflowed {
+  @include breakpoint(sm) {
+    overflow-x: auto;
+    display: flex;
+    column-gap: 24px;
+
+    .card {
+      width: 20rem;
+      flex-shrink: 0;
+    }
+  }
 }
