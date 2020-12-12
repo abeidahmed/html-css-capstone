@@ -735,30 +735,6 @@ video {
   margin-right: auto;
 }
 
-.-m-auto {
-  margin: -auto;
-}
-
-.-mt-auto,
-.-my-auto {
-  margin-top: -auto;
-}
-
-.-mb-auto,
-.-my-auto {
-  margin-bottom: -auto;
-}
-
-.-ml-auto,
-.-mx-auto {
-  margin-left: -auto;
-}
-
-.-mr-auto,
-.-mx-auto {
-  margin-right: -auto;
-}
-
 .p-auto {
   padding: auto;
 }
@@ -781,30 +757,6 @@ video {
 .pr-auto,
 .px-auto {
   padding-right: auto;
-}
-
-.-p-auto {
-  padding: -auto;
-}
-
-.-pt-auto,
-.-py-auto {
-  padding-top: -auto;
-}
-
-.-pb-auto,
-.-py-auto {
-  padding-bottom: -auto;
-}
-
-.-pl-auto,
-.-px-auto {
-  padding-left: -auto;
-}
-
-.-pr-auto,
-.-px-auto {
-  padding-right: -auto;
 }
 
 .m-0 {
@@ -831,30 +783,6 @@ video {
   margin-right: 0;
 }
 
-.-m-0 {
-  margin: -auto;
-}
-
-.-mt-0,
-.-my-0 {
-  margin-top: -auto;
-}
-
-.-mb-0,
-.-my-0 {
-  margin-bottom: -auto;
-}
-
-.-ml-0,
-.-mx-0 {
-  margin-left: -auto;
-}
-
-.-mr-0,
-.-mx-0 {
-  margin-right: -auto;
-}
-
 .p-0 {
   padding: 0;
 }
@@ -877,30 +805,6 @@ video {
 .pr-0,
 .px-0 {
   padding-right: 0;
-}
-
-.-p-0 {
-  padding: -auto;
-}
-
-.-pt-0,
-.-py-0 {
-  padding-top: -auto;
-}
-
-.-pb-0,
-.-py-0 {
-  padding-bottom: -auto;
-}
-
-.-pl-0,
-.-px-0 {
-  padding-left: -auto;
-}
-
-.-pr-0,
-.-px-0 {
-  padding-right: -auto;
 }
 
 .m-1 {
@@ -928,27 +832,27 @@ video {
 }
 
 .-m-1 {
-  margin: -auto;
+  margin: -4px;
 }
 
 .-mt-1,
 .-my-1 {
-  margin-top: -auto;
+  margin-top: -4px;
 }
 
 .-mb-1,
 .-my-1 {
-  margin-bottom: -auto;
+  margin-bottom: -4px;
 }
 
 .-ml-1,
 .-mx-1 {
-  margin-left: -auto;
+  margin-left: -4px;
 }
 
 .-mr-1,
 .-mx-1 {
-  margin-right: -auto;
+  margin-right: -4px;
 }
 
 .p-1 {
@@ -976,27 +880,27 @@ video {
 }
 
 .-p-1 {
-  padding: -auto;
+  padding: -4px;
 }
 
 .-pt-1,
 .-py-1 {
-  padding-top: -auto;
+  padding-top: -4px;
 }
 
 .-pb-1,
 .-py-1 {
-  padding-bottom: -auto;
+  padding-bottom: -4px;
 }
 
 .-pl-1,
 .-px-1 {
-  padding-left: -auto;
+  padding-left: -4px;
 }
 
 .-pr-1,
 .-px-1 {
-  padding-right: -auto;
+  padding-right: -4px;
 }
 
 .m-2 {
@@ -1024,27 +928,27 @@ video {
 }
 
 .-m-2 {
-  margin: -auto;
+  margin: -4px;
 }
 
 .-mt-2,
 .-my-2 {
-  margin-top: -auto;
+  margin-top: -4px;
 }
 
 .-mb-2,
 .-my-2 {
-  margin-bottom: -auto;
+  margin-bottom: -4px;
 }
 
 .-ml-2,
 .-mx-2 {
-  margin-left: -auto;
+  margin-left: -4px;
 }
 
 .-mr-2,
 .-mx-2 {
-  margin-right: -auto;
+  margin-right: -4px;
 }
 
 .p-2 {
@@ -1072,27 +976,27 @@ video {
 }
 
 .-p-2 {
-  padding: -auto;
+  padding: -4px;
 }
 
 .-pt-2,
 .-py-2 {
-  padding-top: -auto;
+  padding-top: -4px;
 }
 
 .-pb-2,
 .-py-2 {
-  padding-bottom: -auto;
+  padding-bottom: -4px;
 }
 
 .-pl-2,
 .-px-2 {
-  padding-left: -auto;
+  padding-left: -4px;
 }
 
 .-pr-2,
 .-px-2 {
-  padding-right: -auto;
+  padding-right: -4px;
 }
 
 .m-3 {
@@ -1120,27 +1024,27 @@ video {
 }
 
 .-m-3 {
-  margin: -auto;
+  margin: -4px;
 }
 
 .-mt-3,
 .-my-3 {
-  margin-top: -auto;
+  margin-top: -4px;
 }
 
 .-mb-3,
 .-my-3 {
-  margin-bottom: -auto;
+  margin-bottom: -4px;
 }
 
 .-ml-3,
 .-mx-3 {
-  margin-left: -auto;
+  margin-left: -4px;
 }
 
 .-mr-3,
 .-mx-3 {
-  margin-right: -auto;
+  margin-right: -4px;
 }
 
 .p-3 {
@@ -1168,27 +1072,27 @@ video {
 }
 
 .-p-3 {
-  padding: -auto;
+  padding: -4px;
 }
 
 .-pt-3,
 .-py-3 {
-  padding-top: -auto;
+  padding-top: -4px;
 }
 
 .-pb-3,
 .-py-3 {
-  padding-bottom: -auto;
+  padding-bottom: -4px;
 }
 
 .-pl-3,
 .-px-3 {
-  padding-left: -auto;
+  padding-left: -4px;
 }
 
 .-pr-3,
 .-px-3 {
-  padding-right: -auto;
+  padding-right: -4px;
 }
 
 .m-4 {
@@ -1216,27 +1120,27 @@ video {
 }
 
 .-m-4 {
-  margin: -auto;
+  margin: -4px;
 }
 
 .-mt-4,
 .-my-4 {
-  margin-top: -auto;
+  margin-top: -4px;
 }
 
 .-mb-4,
 .-my-4 {
-  margin-bottom: -auto;
+  margin-bottom: -4px;
 }
 
 .-ml-4,
 .-mx-4 {
-  margin-left: -auto;
+  margin-left: -4px;
 }
 
 .-mr-4,
 .-mx-4 {
-  margin-right: -auto;
+  margin-right: -4px;
 }
 
 .p-4 {
@@ -1264,27 +1168,27 @@ video {
 }
 
 .-p-4 {
-  padding: -auto;
+  padding: -4px;
 }
 
 .-pt-4,
 .-py-4 {
-  padding-top: -auto;
+  padding-top: -4px;
 }
 
 .-pb-4,
 .-py-4 {
-  padding-bottom: -auto;
+  padding-bottom: -4px;
 }
 
 .-pl-4,
 .-px-4 {
-  padding-left: -auto;
+  padding-left: -4px;
 }
 
 .-pr-4,
 .-px-4 {
-  padding-right: -auto;
+  padding-right: -4px;
 }
 
 .m-5 {
@@ -1312,27 +1216,27 @@ video {
 }
 
 .-m-5 {
-  margin: -auto;
+  margin: -4px;
 }
 
 .-mt-5,
 .-my-5 {
-  margin-top: -auto;
+  margin-top: -4px;
 }
 
 .-mb-5,
 .-my-5 {
-  margin-bottom: -auto;
+  margin-bottom: -4px;
 }
 
 .-ml-5,
 .-mx-5 {
-  margin-left: -auto;
+  margin-left: -4px;
 }
 
 .-mr-5,
 .-mx-5 {
-  margin-right: -auto;
+  margin-right: -4px;
 }
 
 .p-5 {
@@ -1360,27 +1264,27 @@ video {
 }
 
 .-p-5 {
-  padding: -auto;
+  padding: -4px;
 }
 
 .-pt-5,
 .-py-5 {
-  padding-top: -auto;
+  padding-top: -4px;
 }
 
 .-pb-5,
 .-py-5 {
-  padding-bottom: -auto;
+  padding-bottom: -4px;
 }
 
 .-pl-5,
 .-px-5 {
-  padding-left: -auto;
+  padding-left: -4px;
 }
 
 .-pr-5,
 .-px-5 {
-  padding-right: -auto;
+  padding-right: -4px;
 }
 
 .m-6 {
@@ -1408,27 +1312,27 @@ video {
 }
 
 .-m-6 {
-  margin: -auto;
+  margin: -4px;
 }
 
 .-mt-6,
 .-my-6 {
-  margin-top: -auto;
+  margin-top: -4px;
 }
 
 .-mb-6,
 .-my-6 {
-  margin-bottom: -auto;
+  margin-bottom: -4px;
 }
 
 .-ml-6,
 .-mx-6 {
-  margin-left: -auto;
+  margin-left: -4px;
 }
 
 .-mr-6,
 .-mx-6 {
-  margin-right: -auto;
+  margin-right: -4px;
 }
 
 .p-6 {
@@ -1456,27 +1360,27 @@ video {
 }
 
 .-p-6 {
-  padding: -auto;
+  padding: -4px;
 }
 
 .-pt-6,
 .-py-6 {
-  padding-top: -auto;
+  padding-top: -4px;
 }
 
 .-pb-6,
 .-py-6 {
-  padding-bottom: -auto;
+  padding-bottom: -4px;
 }
 
 .-pl-6,
 .-px-6 {
-  padding-left: -auto;
+  padding-left: -4px;
 }
 
 .-pr-6,
 .-px-6 {
-  padding-right: -auto;
+  padding-right: -4px;
 }
 
 .m-10 {
@@ -1504,27 +1408,27 @@ video {
 }
 
 .-m-10 {
-  margin: -auto;
+  margin: -4px;
 }
 
 .-mt-10,
 .-my-10 {
-  margin-top: -auto;
+  margin-top: -4px;
 }
 
 .-mb-10,
 .-my-10 {
-  margin-bottom: -auto;
+  margin-bottom: -4px;
 }
 
 .-ml-10,
 .-mx-10 {
-  margin-left: -auto;
+  margin-left: -4px;
 }
 
 .-mr-10,
 .-mx-10 {
-  margin-right: -auto;
+  margin-right: -4px;
 }
 
 .p-10 {
@@ -1552,27 +1456,27 @@ video {
 }
 
 .-p-10 {
-  padding: -auto;
+  padding: -4px;
 }
 
 .-pt-10,
 .-py-10 {
-  padding-top: -auto;
+  padding-top: -4px;
 }
 
 .-pb-10,
 .-py-10 {
-  padding-bottom: -auto;
+  padding-bottom: -4px;
 }
 
 .-pl-10,
 .-px-10 {
-  padding-left: -auto;
+  padding-left: -4px;
 }
 
 .-pr-10,
 .-px-10 {
-  padding-right: -auto;
+  padding-right: -4px;
 }
 
 .m-12 {
@@ -1600,27 +1504,27 @@ video {
 }
 
 .-m-12 {
-  margin: -auto;
+  margin: -4px;
 }
 
 .-mt-12,
 .-my-12 {
-  margin-top: -auto;
+  margin-top: -4px;
 }
 
 .-mb-12,
 .-my-12 {
-  margin-bottom: -auto;
+  margin-bottom: -4px;
 }
 
 .-ml-12,
 .-mx-12 {
-  margin-left: -auto;
+  margin-left: -4px;
 }
 
 .-mr-12,
 .-mx-12 {
-  margin-right: -auto;
+  margin-right: -4px;
 }
 
 .p-12 {
@@ -1648,27 +1552,27 @@ video {
 }
 
 .-p-12 {
-  padding: -auto;
+  padding: -4px;
 }
 
 .-pt-12,
 .-py-12 {
-  padding-top: -auto;
+  padding-top: -4px;
 }
 
 .-pb-12,
 .-py-12 {
-  padding-bottom: -auto;
+  padding-bottom: -4px;
 }
 
 .-pl-12,
 .-px-12 {
-  padding-left: -auto;
+  padding-left: -4px;
 }
 
 .-pr-12,
 .-px-12 {
-  padding-right: -auto;
+  padding-right: -4px;
 }
 
 @media (min-width: 640px) {
@@ -1691,25 +1595,6 @@ video {
   .sm\:mx-auto {
     margin-right: auto;
   }
-  .-sm\:m-auto {
-    margin: -auto;
-  }
-  .-sm\:mt-auto,
-  .-sm\:my-auto {
-    margin-top: -auto;
-  }
-  .-sm\:mb-auto,
-  .-sm\:my-auto {
-    margin-bottom: -auto;
-  }
-  .-sm\:ml-auto,
-  .-sm\:mx-auto {
-    margin-left: -auto;
-  }
-  .-sm\:mr-auto,
-  .-sm\:mx-auto {
-    margin-right: -auto;
-  }
   .sm\:p-auto {
     padding: auto;
   }
@@ -1728,25 +1613,6 @@ video {
   .sm\:pr-auto,
   .sm\:px-auto {
     padding-right: auto;
-  }
-  .-sm\:p-auto {
-    padding: -auto;
-  }
-  .-sm\:pt-auto,
-  .-sm\:py-auto {
-    padding-top: -auto;
-  }
-  .-sm\:pb-auto,
-  .-sm\:py-auto {
-    padding-bottom: -auto;
-  }
-  .-sm\:pl-auto,
-  .-sm\:px-auto {
-    padding-left: -auto;
-  }
-  .-sm\:pr-auto,
-  .-sm\:px-auto {
-    padding-right: -auto;
   }
   .sm\:m-0 {
     margin: 0;
@@ -1767,25 +1633,6 @@ video {
   .sm\:mx-0 {
     margin-right: 0;
   }
-  .-sm\:m-0 {
-    margin: -auto;
-  }
-  .-sm\:mt-0,
-  .-sm\:my-0 {
-    margin-top: -auto;
-  }
-  .-sm\:mb-0,
-  .-sm\:my-0 {
-    margin-bottom: -auto;
-  }
-  .-sm\:ml-0,
-  .-sm\:mx-0 {
-    margin-left: -auto;
-  }
-  .-sm\:mr-0,
-  .-sm\:mx-0 {
-    margin-right: -auto;
-  }
   .sm\:p-0 {
     padding: 0;
   }
@@ -1804,25 +1651,6 @@ video {
   .sm\:pr-0,
   .sm\:px-0 {
     padding-right: 0;
-  }
-  .-sm\:p-0 {
-    padding: -auto;
-  }
-  .-sm\:pt-0,
-  .-sm\:py-0 {
-    padding-top: -auto;
-  }
-  .-sm\:pb-0,
-  .-sm\:py-0 {
-    padding-bottom: -auto;
-  }
-  .-sm\:pl-0,
-  .-sm\:px-0 {
-    padding-left: -auto;
-  }
-  .-sm\:pr-0,
-  .-sm\:px-0 {
-    padding-right: -auto;
   }
   .sm\:m-1 {
     margin: 4px;
@@ -1844,23 +1672,23 @@ video {
     margin-right: 4px;
   }
   .-sm\:m-1 {
-    margin: -auto;
+    margin: -4px;
   }
   .-sm\:mt-1,
   .-sm\:my-1 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-sm\:mb-1,
   .-sm\:my-1 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-sm\:ml-1,
   .-sm\:mx-1 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-sm\:mr-1,
   .-sm\:mx-1 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .sm\:p-1 {
     padding: 4px;
@@ -1882,23 +1710,23 @@ video {
     padding-right: 4px;
   }
   .-sm\:p-1 {
-    padding: -auto;
+    padding: -4px;
   }
   .-sm\:pt-1,
   .-sm\:py-1 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-sm\:pb-1,
   .-sm\:py-1 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-sm\:pl-1,
   .-sm\:px-1 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-sm\:pr-1,
   .-sm\:px-1 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .sm\:m-2 {
     margin: 8px;
@@ -1920,23 +1748,23 @@ video {
     margin-right: 8px;
   }
   .-sm\:m-2 {
-    margin: -auto;
+    margin: -4px;
   }
   .-sm\:mt-2,
   .-sm\:my-2 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-sm\:mb-2,
   .-sm\:my-2 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-sm\:ml-2,
   .-sm\:mx-2 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-sm\:mr-2,
   .-sm\:mx-2 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .sm\:p-2 {
     padding: 8px;
@@ -1958,23 +1786,23 @@ video {
     padding-right: 8px;
   }
   .-sm\:p-2 {
-    padding: -auto;
+    padding: -4px;
   }
   .-sm\:pt-2,
   .-sm\:py-2 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-sm\:pb-2,
   .-sm\:py-2 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-sm\:pl-2,
   .-sm\:px-2 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-sm\:pr-2,
   .-sm\:px-2 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .sm\:m-3 {
     margin: 12px;
@@ -1996,23 +1824,23 @@ video {
     margin-right: 12px;
   }
   .-sm\:m-3 {
-    margin: -auto;
+    margin: -4px;
   }
   .-sm\:mt-3,
   .-sm\:my-3 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-sm\:mb-3,
   .-sm\:my-3 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-sm\:ml-3,
   .-sm\:mx-3 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-sm\:mr-3,
   .-sm\:mx-3 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .sm\:p-3 {
     padding: 12px;
@@ -2034,23 +1862,23 @@ video {
     padding-right: 12px;
   }
   .-sm\:p-3 {
-    padding: -auto;
+    padding: -4px;
   }
   .-sm\:pt-3,
   .-sm\:py-3 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-sm\:pb-3,
   .-sm\:py-3 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-sm\:pl-3,
   .-sm\:px-3 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-sm\:pr-3,
   .-sm\:px-3 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .sm\:m-4 {
     margin: 16px;
@@ -2072,23 +1900,23 @@ video {
     margin-right: 16px;
   }
   .-sm\:m-4 {
-    margin: -auto;
+    margin: -4px;
   }
   .-sm\:mt-4,
   .-sm\:my-4 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-sm\:mb-4,
   .-sm\:my-4 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-sm\:ml-4,
   .-sm\:mx-4 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-sm\:mr-4,
   .-sm\:mx-4 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .sm\:p-4 {
     padding: 16px;
@@ -2110,23 +1938,23 @@ video {
     padding-right: 16px;
   }
   .-sm\:p-4 {
-    padding: -auto;
+    padding: -4px;
   }
   .-sm\:pt-4,
   .-sm\:py-4 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-sm\:pb-4,
   .-sm\:py-4 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-sm\:pl-4,
   .-sm\:px-4 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-sm\:pr-4,
   .-sm\:px-4 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .sm\:m-5 {
     margin: 20px;
@@ -2148,23 +1976,23 @@ video {
     margin-right: 20px;
   }
   .-sm\:m-5 {
-    margin: -auto;
+    margin: -4px;
   }
   .-sm\:mt-5,
   .-sm\:my-5 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-sm\:mb-5,
   .-sm\:my-5 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-sm\:ml-5,
   .-sm\:mx-5 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-sm\:mr-5,
   .-sm\:mx-5 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .sm\:p-5 {
     padding: 20px;
@@ -2186,23 +2014,23 @@ video {
     padding-right: 20px;
   }
   .-sm\:p-5 {
-    padding: -auto;
+    padding: -4px;
   }
   .-sm\:pt-5,
   .-sm\:py-5 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-sm\:pb-5,
   .-sm\:py-5 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-sm\:pl-5,
   .-sm\:px-5 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-sm\:pr-5,
   .-sm\:px-5 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .sm\:m-6 {
     margin: 24px;
@@ -2224,23 +2052,23 @@ video {
     margin-right: 24px;
   }
   .-sm\:m-6 {
-    margin: -auto;
+    margin: -4px;
   }
   .-sm\:mt-6,
   .-sm\:my-6 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-sm\:mb-6,
   .-sm\:my-6 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-sm\:ml-6,
   .-sm\:mx-6 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-sm\:mr-6,
   .-sm\:mx-6 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .sm\:p-6 {
     padding: 24px;
@@ -2262,23 +2090,23 @@ video {
     padding-right: 24px;
   }
   .-sm\:p-6 {
-    padding: -auto;
+    padding: -4px;
   }
   .-sm\:pt-6,
   .-sm\:py-6 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-sm\:pb-6,
   .-sm\:py-6 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-sm\:pl-6,
   .-sm\:px-6 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-sm\:pr-6,
   .-sm\:px-6 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .sm\:m-10 {
     margin: 40px;
@@ -2300,23 +2128,23 @@ video {
     margin-right: 40px;
   }
   .-sm\:m-10 {
-    margin: -auto;
+    margin: -4px;
   }
   .-sm\:mt-10,
   .-sm\:my-10 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-sm\:mb-10,
   .-sm\:my-10 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-sm\:ml-10,
   .-sm\:mx-10 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-sm\:mr-10,
   .-sm\:mx-10 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .sm\:p-10 {
     padding: 40px;
@@ -2338,23 +2166,23 @@ video {
     padding-right: 40px;
   }
   .-sm\:p-10 {
-    padding: -auto;
+    padding: -4px;
   }
   .-sm\:pt-10,
   .-sm\:py-10 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-sm\:pb-10,
   .-sm\:py-10 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-sm\:pl-10,
   .-sm\:px-10 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-sm\:pr-10,
   .-sm\:px-10 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .sm\:m-12 {
     margin: 48px;
@@ -2376,23 +2204,23 @@ video {
     margin-right: 48px;
   }
   .-sm\:m-12 {
-    margin: -auto;
+    margin: -4px;
   }
   .-sm\:mt-12,
   .-sm\:my-12 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-sm\:mb-12,
   .-sm\:my-12 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-sm\:ml-12,
   .-sm\:mx-12 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-sm\:mr-12,
   .-sm\:mx-12 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .sm\:p-12 {
     padding: 48px;
@@ -2414,23 +2242,23 @@ video {
     padding-right: 48px;
   }
   .-sm\:p-12 {
-    padding: -auto;
+    padding: -4px;
   }
   .-sm\:pt-12,
   .-sm\:py-12 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-sm\:pb-12,
   .-sm\:py-12 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-sm\:pl-12,
   .-sm\:px-12 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-sm\:pr-12,
   .-sm\:px-12 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
 }
 
@@ -2454,25 +2282,6 @@ video {
   .md\:mx-auto {
     margin-right: auto;
   }
-  .-md\:m-auto {
-    margin: -auto;
-  }
-  .-md\:mt-auto,
-  .-md\:my-auto {
-    margin-top: -auto;
-  }
-  .-md\:mb-auto,
-  .-md\:my-auto {
-    margin-bottom: -auto;
-  }
-  .-md\:ml-auto,
-  .-md\:mx-auto {
-    margin-left: -auto;
-  }
-  .-md\:mr-auto,
-  .-md\:mx-auto {
-    margin-right: -auto;
-  }
   .md\:p-auto {
     padding: auto;
   }
@@ -2491,25 +2300,6 @@ video {
   .md\:pr-auto,
   .md\:px-auto {
     padding-right: auto;
-  }
-  .-md\:p-auto {
-    padding: -auto;
-  }
-  .-md\:pt-auto,
-  .-md\:py-auto {
-    padding-top: -auto;
-  }
-  .-md\:pb-auto,
-  .-md\:py-auto {
-    padding-bottom: -auto;
-  }
-  .-md\:pl-auto,
-  .-md\:px-auto {
-    padding-left: -auto;
-  }
-  .-md\:pr-auto,
-  .-md\:px-auto {
-    padding-right: -auto;
   }
   .md\:m-0 {
     margin: 0;
@@ -2530,25 +2320,6 @@ video {
   .md\:mx-0 {
     margin-right: 0;
   }
-  .-md\:m-0 {
-    margin: -auto;
-  }
-  .-md\:mt-0,
-  .-md\:my-0 {
-    margin-top: -auto;
-  }
-  .-md\:mb-0,
-  .-md\:my-0 {
-    margin-bottom: -auto;
-  }
-  .-md\:ml-0,
-  .-md\:mx-0 {
-    margin-left: -auto;
-  }
-  .-md\:mr-0,
-  .-md\:mx-0 {
-    margin-right: -auto;
-  }
   .md\:p-0 {
     padding: 0;
   }
@@ -2567,25 +2338,6 @@ video {
   .md\:pr-0,
   .md\:px-0 {
     padding-right: 0;
-  }
-  .-md\:p-0 {
-    padding: -auto;
-  }
-  .-md\:pt-0,
-  .-md\:py-0 {
-    padding-top: -auto;
-  }
-  .-md\:pb-0,
-  .-md\:py-0 {
-    padding-bottom: -auto;
-  }
-  .-md\:pl-0,
-  .-md\:px-0 {
-    padding-left: -auto;
-  }
-  .-md\:pr-0,
-  .-md\:px-0 {
-    padding-right: -auto;
   }
   .md\:m-1 {
     margin: 4px;
@@ -2607,23 +2359,23 @@ video {
     margin-right: 4px;
   }
   .-md\:m-1 {
-    margin: -auto;
+    margin: -4px;
   }
   .-md\:mt-1,
   .-md\:my-1 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-md\:mb-1,
   .-md\:my-1 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-md\:ml-1,
   .-md\:mx-1 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-md\:mr-1,
   .-md\:mx-1 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .md\:p-1 {
     padding: 4px;
@@ -2645,23 +2397,23 @@ video {
     padding-right: 4px;
   }
   .-md\:p-1 {
-    padding: -auto;
+    padding: -4px;
   }
   .-md\:pt-1,
   .-md\:py-1 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-md\:pb-1,
   .-md\:py-1 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-md\:pl-1,
   .-md\:px-1 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-md\:pr-1,
   .-md\:px-1 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .md\:m-2 {
     margin: 8px;
@@ -2683,23 +2435,23 @@ video {
     margin-right: 8px;
   }
   .-md\:m-2 {
-    margin: -auto;
+    margin: -4px;
   }
   .-md\:mt-2,
   .-md\:my-2 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-md\:mb-2,
   .-md\:my-2 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-md\:ml-2,
   .-md\:mx-2 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-md\:mr-2,
   .-md\:mx-2 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .md\:p-2 {
     padding: 8px;
@@ -2721,23 +2473,23 @@ video {
     padding-right: 8px;
   }
   .-md\:p-2 {
-    padding: -auto;
+    padding: -4px;
   }
   .-md\:pt-2,
   .-md\:py-2 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-md\:pb-2,
   .-md\:py-2 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-md\:pl-2,
   .-md\:px-2 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-md\:pr-2,
   .-md\:px-2 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .md\:m-3 {
     margin: 12px;
@@ -2759,23 +2511,23 @@ video {
     margin-right: 12px;
   }
   .-md\:m-3 {
-    margin: -auto;
+    margin: -4px;
   }
   .-md\:mt-3,
   .-md\:my-3 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-md\:mb-3,
   .-md\:my-3 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-md\:ml-3,
   .-md\:mx-3 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-md\:mr-3,
   .-md\:mx-3 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .md\:p-3 {
     padding: 12px;
@@ -2797,23 +2549,23 @@ video {
     padding-right: 12px;
   }
   .-md\:p-3 {
-    padding: -auto;
+    padding: -4px;
   }
   .-md\:pt-3,
   .-md\:py-3 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-md\:pb-3,
   .-md\:py-3 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-md\:pl-3,
   .-md\:px-3 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-md\:pr-3,
   .-md\:px-3 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .md\:m-4 {
     margin: 16px;
@@ -2835,23 +2587,23 @@ video {
     margin-right: 16px;
   }
   .-md\:m-4 {
-    margin: -auto;
+    margin: -4px;
   }
   .-md\:mt-4,
   .-md\:my-4 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-md\:mb-4,
   .-md\:my-4 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-md\:ml-4,
   .-md\:mx-4 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-md\:mr-4,
   .-md\:mx-4 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .md\:p-4 {
     padding: 16px;
@@ -2873,23 +2625,23 @@ video {
     padding-right: 16px;
   }
   .-md\:p-4 {
-    padding: -auto;
+    padding: -4px;
   }
   .-md\:pt-4,
   .-md\:py-4 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-md\:pb-4,
   .-md\:py-4 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-md\:pl-4,
   .-md\:px-4 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-md\:pr-4,
   .-md\:px-4 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .md\:m-5 {
     margin: 20px;
@@ -2911,23 +2663,23 @@ video {
     margin-right: 20px;
   }
   .-md\:m-5 {
-    margin: -auto;
+    margin: -4px;
   }
   .-md\:mt-5,
   .-md\:my-5 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-md\:mb-5,
   .-md\:my-5 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-md\:ml-5,
   .-md\:mx-5 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-md\:mr-5,
   .-md\:mx-5 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .md\:p-5 {
     padding: 20px;
@@ -2949,23 +2701,23 @@ video {
     padding-right: 20px;
   }
   .-md\:p-5 {
-    padding: -auto;
+    padding: -4px;
   }
   .-md\:pt-5,
   .-md\:py-5 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-md\:pb-5,
   .-md\:py-5 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-md\:pl-5,
   .-md\:px-5 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-md\:pr-5,
   .-md\:px-5 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .md\:m-6 {
     margin: 24px;
@@ -2987,23 +2739,23 @@ video {
     margin-right: 24px;
   }
   .-md\:m-6 {
-    margin: -auto;
+    margin: -4px;
   }
   .-md\:mt-6,
   .-md\:my-6 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-md\:mb-6,
   .-md\:my-6 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-md\:ml-6,
   .-md\:mx-6 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-md\:mr-6,
   .-md\:mx-6 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .md\:p-6 {
     padding: 24px;
@@ -3025,23 +2777,23 @@ video {
     padding-right: 24px;
   }
   .-md\:p-6 {
-    padding: -auto;
+    padding: -4px;
   }
   .-md\:pt-6,
   .-md\:py-6 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-md\:pb-6,
   .-md\:py-6 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-md\:pl-6,
   .-md\:px-6 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-md\:pr-6,
   .-md\:px-6 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .md\:m-10 {
     margin: 40px;
@@ -3063,23 +2815,23 @@ video {
     margin-right: 40px;
   }
   .-md\:m-10 {
-    margin: -auto;
+    margin: -4px;
   }
   .-md\:mt-10,
   .-md\:my-10 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-md\:mb-10,
   .-md\:my-10 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-md\:ml-10,
   .-md\:mx-10 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-md\:mr-10,
   .-md\:mx-10 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .md\:p-10 {
     padding: 40px;
@@ -3101,23 +2853,23 @@ video {
     padding-right: 40px;
   }
   .-md\:p-10 {
-    padding: -auto;
+    padding: -4px;
   }
   .-md\:pt-10,
   .-md\:py-10 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-md\:pb-10,
   .-md\:py-10 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-md\:pl-10,
   .-md\:px-10 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-md\:pr-10,
   .-md\:px-10 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .md\:m-12 {
     margin: 48px;
@@ -3139,23 +2891,23 @@ video {
     margin-right: 48px;
   }
   .-md\:m-12 {
-    margin: -auto;
+    margin: -4px;
   }
   .-md\:mt-12,
   .-md\:my-12 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-md\:mb-12,
   .-md\:my-12 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-md\:ml-12,
   .-md\:mx-12 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-md\:mr-12,
   .-md\:mx-12 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .md\:p-12 {
     padding: 48px;
@@ -3177,23 +2929,23 @@ video {
     padding-right: 48px;
   }
   .-md\:p-12 {
-    padding: -auto;
+    padding: -4px;
   }
   .-md\:pt-12,
   .-md\:py-12 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-md\:pb-12,
   .-md\:py-12 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-md\:pl-12,
   .-md\:px-12 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-md\:pr-12,
   .-md\:px-12 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
 }
 
@@ -3217,25 +2969,6 @@ video {
   .lg\:mx-auto {
     margin-right: auto;
   }
-  .-lg\:m-auto {
-    margin: -auto;
-  }
-  .-lg\:mt-auto,
-  .-lg\:my-auto {
-    margin-top: -auto;
-  }
-  .-lg\:mb-auto,
-  .-lg\:my-auto {
-    margin-bottom: -auto;
-  }
-  .-lg\:ml-auto,
-  .-lg\:mx-auto {
-    margin-left: -auto;
-  }
-  .-lg\:mr-auto,
-  .-lg\:mx-auto {
-    margin-right: -auto;
-  }
   .lg\:p-auto {
     padding: auto;
   }
@@ -3254,25 +2987,6 @@ video {
   .lg\:pr-auto,
   .lg\:px-auto {
     padding-right: auto;
-  }
-  .-lg\:p-auto {
-    padding: -auto;
-  }
-  .-lg\:pt-auto,
-  .-lg\:py-auto {
-    padding-top: -auto;
-  }
-  .-lg\:pb-auto,
-  .-lg\:py-auto {
-    padding-bottom: -auto;
-  }
-  .-lg\:pl-auto,
-  .-lg\:px-auto {
-    padding-left: -auto;
-  }
-  .-lg\:pr-auto,
-  .-lg\:px-auto {
-    padding-right: -auto;
   }
   .lg\:m-0 {
     margin: 0;
@@ -3293,25 +3007,6 @@ video {
   .lg\:mx-0 {
     margin-right: 0;
   }
-  .-lg\:m-0 {
-    margin: -auto;
-  }
-  .-lg\:mt-0,
-  .-lg\:my-0 {
-    margin-top: -auto;
-  }
-  .-lg\:mb-0,
-  .-lg\:my-0 {
-    margin-bottom: -auto;
-  }
-  .-lg\:ml-0,
-  .-lg\:mx-0 {
-    margin-left: -auto;
-  }
-  .-lg\:mr-0,
-  .-lg\:mx-0 {
-    margin-right: -auto;
-  }
   .lg\:p-0 {
     padding: 0;
   }
@@ -3330,25 +3025,6 @@ video {
   .lg\:pr-0,
   .lg\:px-0 {
     padding-right: 0;
-  }
-  .-lg\:p-0 {
-    padding: -auto;
-  }
-  .-lg\:pt-0,
-  .-lg\:py-0 {
-    padding-top: -auto;
-  }
-  .-lg\:pb-0,
-  .-lg\:py-0 {
-    padding-bottom: -auto;
-  }
-  .-lg\:pl-0,
-  .-lg\:px-0 {
-    padding-left: -auto;
-  }
-  .-lg\:pr-0,
-  .-lg\:px-0 {
-    padding-right: -auto;
   }
   .lg\:m-1 {
     margin: 4px;
@@ -3370,23 +3046,23 @@ video {
     margin-right: 4px;
   }
   .-lg\:m-1 {
-    margin: -auto;
+    margin: -4px;
   }
   .-lg\:mt-1,
   .-lg\:my-1 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-lg\:mb-1,
   .-lg\:my-1 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-lg\:ml-1,
   .-lg\:mx-1 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-lg\:mr-1,
   .-lg\:mx-1 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .lg\:p-1 {
     padding: 4px;
@@ -3408,23 +3084,23 @@ video {
     padding-right: 4px;
   }
   .-lg\:p-1 {
-    padding: -auto;
+    padding: -4px;
   }
   .-lg\:pt-1,
   .-lg\:py-1 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-lg\:pb-1,
   .-lg\:py-1 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-lg\:pl-1,
   .-lg\:px-1 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-lg\:pr-1,
   .-lg\:px-1 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .lg\:m-2 {
     margin: 8px;
@@ -3446,23 +3122,23 @@ video {
     margin-right: 8px;
   }
   .-lg\:m-2 {
-    margin: -auto;
+    margin: -4px;
   }
   .-lg\:mt-2,
   .-lg\:my-2 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-lg\:mb-2,
   .-lg\:my-2 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-lg\:ml-2,
   .-lg\:mx-2 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-lg\:mr-2,
   .-lg\:mx-2 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .lg\:p-2 {
     padding: 8px;
@@ -3484,23 +3160,23 @@ video {
     padding-right: 8px;
   }
   .-lg\:p-2 {
-    padding: -auto;
+    padding: -4px;
   }
   .-lg\:pt-2,
   .-lg\:py-2 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-lg\:pb-2,
   .-lg\:py-2 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-lg\:pl-2,
   .-lg\:px-2 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-lg\:pr-2,
   .-lg\:px-2 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .lg\:m-3 {
     margin: 12px;
@@ -3522,23 +3198,23 @@ video {
     margin-right: 12px;
   }
   .-lg\:m-3 {
-    margin: -auto;
+    margin: -4px;
   }
   .-lg\:mt-3,
   .-lg\:my-3 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-lg\:mb-3,
   .-lg\:my-3 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-lg\:ml-3,
   .-lg\:mx-3 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-lg\:mr-3,
   .-lg\:mx-3 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .lg\:p-3 {
     padding: 12px;
@@ -3560,23 +3236,23 @@ video {
     padding-right: 12px;
   }
   .-lg\:p-3 {
-    padding: -auto;
+    padding: -4px;
   }
   .-lg\:pt-3,
   .-lg\:py-3 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-lg\:pb-3,
   .-lg\:py-3 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-lg\:pl-3,
   .-lg\:px-3 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-lg\:pr-3,
   .-lg\:px-3 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .lg\:m-4 {
     margin: 16px;
@@ -3598,23 +3274,23 @@ video {
     margin-right: 16px;
   }
   .-lg\:m-4 {
-    margin: -auto;
+    margin: -4px;
   }
   .-lg\:mt-4,
   .-lg\:my-4 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-lg\:mb-4,
   .-lg\:my-4 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-lg\:ml-4,
   .-lg\:mx-4 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-lg\:mr-4,
   .-lg\:mx-4 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .lg\:p-4 {
     padding: 16px;
@@ -3636,23 +3312,23 @@ video {
     padding-right: 16px;
   }
   .-lg\:p-4 {
-    padding: -auto;
+    padding: -4px;
   }
   .-lg\:pt-4,
   .-lg\:py-4 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-lg\:pb-4,
   .-lg\:py-4 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-lg\:pl-4,
   .-lg\:px-4 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-lg\:pr-4,
   .-lg\:px-4 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .lg\:m-5 {
     margin: 20px;
@@ -3674,23 +3350,23 @@ video {
     margin-right: 20px;
   }
   .-lg\:m-5 {
-    margin: -auto;
+    margin: -4px;
   }
   .-lg\:mt-5,
   .-lg\:my-5 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-lg\:mb-5,
   .-lg\:my-5 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-lg\:ml-5,
   .-lg\:mx-5 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-lg\:mr-5,
   .-lg\:mx-5 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .lg\:p-5 {
     padding: 20px;
@@ -3712,23 +3388,23 @@ video {
     padding-right: 20px;
   }
   .-lg\:p-5 {
-    padding: -auto;
+    padding: -4px;
   }
   .-lg\:pt-5,
   .-lg\:py-5 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-lg\:pb-5,
   .-lg\:py-5 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-lg\:pl-5,
   .-lg\:px-5 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-lg\:pr-5,
   .-lg\:px-5 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .lg\:m-6 {
     margin: 24px;
@@ -3750,23 +3426,23 @@ video {
     margin-right: 24px;
   }
   .-lg\:m-6 {
-    margin: -auto;
+    margin: -4px;
   }
   .-lg\:mt-6,
   .-lg\:my-6 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-lg\:mb-6,
   .-lg\:my-6 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-lg\:ml-6,
   .-lg\:mx-6 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-lg\:mr-6,
   .-lg\:mx-6 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .lg\:p-6 {
     padding: 24px;
@@ -3788,23 +3464,23 @@ video {
     padding-right: 24px;
   }
   .-lg\:p-6 {
-    padding: -auto;
+    padding: -4px;
   }
   .-lg\:pt-6,
   .-lg\:py-6 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-lg\:pb-6,
   .-lg\:py-6 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-lg\:pl-6,
   .-lg\:px-6 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-lg\:pr-6,
   .-lg\:px-6 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .lg\:m-10 {
     margin: 40px;
@@ -3826,23 +3502,23 @@ video {
     margin-right: 40px;
   }
   .-lg\:m-10 {
-    margin: -auto;
+    margin: -4px;
   }
   .-lg\:mt-10,
   .-lg\:my-10 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-lg\:mb-10,
   .-lg\:my-10 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-lg\:ml-10,
   .-lg\:mx-10 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-lg\:mr-10,
   .-lg\:mx-10 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .lg\:p-10 {
     padding: 40px;
@@ -3864,23 +3540,23 @@ video {
     padding-right: 40px;
   }
   .-lg\:p-10 {
-    padding: -auto;
+    padding: -4px;
   }
   .-lg\:pt-10,
   .-lg\:py-10 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-lg\:pb-10,
   .-lg\:py-10 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-lg\:pl-10,
   .-lg\:px-10 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-lg\:pr-10,
   .-lg\:px-10 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .lg\:m-12 {
     margin: 48px;
@@ -3902,23 +3578,23 @@ video {
     margin-right: 48px;
   }
   .-lg\:m-12 {
-    margin: -auto;
+    margin: -4px;
   }
   .-lg\:mt-12,
   .-lg\:my-12 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-lg\:mb-12,
   .-lg\:my-12 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-lg\:ml-12,
   .-lg\:mx-12 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-lg\:mr-12,
   .-lg\:mx-12 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .lg\:p-12 {
     padding: 48px;
@@ -3940,23 +3616,23 @@ video {
     padding-right: 48px;
   }
   .-lg\:p-12 {
-    padding: -auto;
+    padding: -4px;
   }
   .-lg\:pt-12,
   .-lg\:py-12 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-lg\:pb-12,
   .-lg\:py-12 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-lg\:pl-12,
   .-lg\:px-12 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-lg\:pr-12,
   .-lg\:px-12 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
 }
 
@@ -3980,25 +3656,6 @@ video {
   .xl\:mx-auto {
     margin-right: auto;
   }
-  .-xl\:m-auto {
-    margin: -auto;
-  }
-  .-xl\:mt-auto,
-  .-xl\:my-auto {
-    margin-top: -auto;
-  }
-  .-xl\:mb-auto,
-  .-xl\:my-auto {
-    margin-bottom: -auto;
-  }
-  .-xl\:ml-auto,
-  .-xl\:mx-auto {
-    margin-left: -auto;
-  }
-  .-xl\:mr-auto,
-  .-xl\:mx-auto {
-    margin-right: -auto;
-  }
   .xl\:p-auto {
     padding: auto;
   }
@@ -4017,25 +3674,6 @@ video {
   .xl\:pr-auto,
   .xl\:px-auto {
     padding-right: auto;
-  }
-  .-xl\:p-auto {
-    padding: -auto;
-  }
-  .-xl\:pt-auto,
-  .-xl\:py-auto {
-    padding-top: -auto;
-  }
-  .-xl\:pb-auto,
-  .-xl\:py-auto {
-    padding-bottom: -auto;
-  }
-  .-xl\:pl-auto,
-  .-xl\:px-auto {
-    padding-left: -auto;
-  }
-  .-xl\:pr-auto,
-  .-xl\:px-auto {
-    padding-right: -auto;
   }
   .xl\:m-0 {
     margin: 0;
@@ -4056,25 +3694,6 @@ video {
   .xl\:mx-0 {
     margin-right: 0;
   }
-  .-xl\:m-0 {
-    margin: -auto;
-  }
-  .-xl\:mt-0,
-  .-xl\:my-0 {
-    margin-top: -auto;
-  }
-  .-xl\:mb-0,
-  .-xl\:my-0 {
-    margin-bottom: -auto;
-  }
-  .-xl\:ml-0,
-  .-xl\:mx-0 {
-    margin-left: -auto;
-  }
-  .-xl\:mr-0,
-  .-xl\:mx-0 {
-    margin-right: -auto;
-  }
   .xl\:p-0 {
     padding: 0;
   }
@@ -4093,25 +3712,6 @@ video {
   .xl\:pr-0,
   .xl\:px-0 {
     padding-right: 0;
-  }
-  .-xl\:p-0 {
-    padding: -auto;
-  }
-  .-xl\:pt-0,
-  .-xl\:py-0 {
-    padding-top: -auto;
-  }
-  .-xl\:pb-0,
-  .-xl\:py-0 {
-    padding-bottom: -auto;
-  }
-  .-xl\:pl-0,
-  .-xl\:px-0 {
-    padding-left: -auto;
-  }
-  .-xl\:pr-0,
-  .-xl\:px-0 {
-    padding-right: -auto;
   }
   .xl\:m-1 {
     margin: 4px;
@@ -4133,23 +3733,23 @@ video {
     margin-right: 4px;
   }
   .-xl\:m-1 {
-    margin: -auto;
+    margin: -4px;
   }
   .-xl\:mt-1,
   .-xl\:my-1 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-xl\:mb-1,
   .-xl\:my-1 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-xl\:ml-1,
   .-xl\:mx-1 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-xl\:mr-1,
   .-xl\:mx-1 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .xl\:p-1 {
     padding: 4px;
@@ -4171,23 +3771,23 @@ video {
     padding-right: 4px;
   }
   .-xl\:p-1 {
-    padding: -auto;
+    padding: -4px;
   }
   .-xl\:pt-1,
   .-xl\:py-1 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-xl\:pb-1,
   .-xl\:py-1 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-xl\:pl-1,
   .-xl\:px-1 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-xl\:pr-1,
   .-xl\:px-1 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .xl\:m-2 {
     margin: 8px;
@@ -4209,23 +3809,23 @@ video {
     margin-right: 8px;
   }
   .-xl\:m-2 {
-    margin: -auto;
+    margin: -4px;
   }
   .-xl\:mt-2,
   .-xl\:my-2 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-xl\:mb-2,
   .-xl\:my-2 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-xl\:ml-2,
   .-xl\:mx-2 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-xl\:mr-2,
   .-xl\:mx-2 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .xl\:p-2 {
     padding: 8px;
@@ -4247,23 +3847,23 @@ video {
     padding-right: 8px;
   }
   .-xl\:p-2 {
-    padding: -auto;
+    padding: -4px;
   }
   .-xl\:pt-2,
   .-xl\:py-2 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-xl\:pb-2,
   .-xl\:py-2 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-xl\:pl-2,
   .-xl\:px-2 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-xl\:pr-2,
   .-xl\:px-2 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .xl\:m-3 {
     margin: 12px;
@@ -4285,23 +3885,23 @@ video {
     margin-right: 12px;
   }
   .-xl\:m-3 {
-    margin: -auto;
+    margin: -4px;
   }
   .-xl\:mt-3,
   .-xl\:my-3 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-xl\:mb-3,
   .-xl\:my-3 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-xl\:ml-3,
   .-xl\:mx-3 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-xl\:mr-3,
   .-xl\:mx-3 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .xl\:p-3 {
     padding: 12px;
@@ -4323,23 +3923,23 @@ video {
     padding-right: 12px;
   }
   .-xl\:p-3 {
-    padding: -auto;
+    padding: -4px;
   }
   .-xl\:pt-3,
   .-xl\:py-3 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-xl\:pb-3,
   .-xl\:py-3 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-xl\:pl-3,
   .-xl\:px-3 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-xl\:pr-3,
   .-xl\:px-3 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .xl\:m-4 {
     margin: 16px;
@@ -4361,23 +3961,23 @@ video {
     margin-right: 16px;
   }
   .-xl\:m-4 {
-    margin: -auto;
+    margin: -4px;
   }
   .-xl\:mt-4,
   .-xl\:my-4 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-xl\:mb-4,
   .-xl\:my-4 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-xl\:ml-4,
   .-xl\:mx-4 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-xl\:mr-4,
   .-xl\:mx-4 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .xl\:p-4 {
     padding: 16px;
@@ -4399,23 +3999,23 @@ video {
     padding-right: 16px;
   }
   .-xl\:p-4 {
-    padding: -auto;
+    padding: -4px;
   }
   .-xl\:pt-4,
   .-xl\:py-4 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-xl\:pb-4,
   .-xl\:py-4 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-xl\:pl-4,
   .-xl\:px-4 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-xl\:pr-4,
   .-xl\:px-4 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .xl\:m-5 {
     margin: 20px;
@@ -4437,23 +4037,23 @@ video {
     margin-right: 20px;
   }
   .-xl\:m-5 {
-    margin: -auto;
+    margin: -4px;
   }
   .-xl\:mt-5,
   .-xl\:my-5 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-xl\:mb-5,
   .-xl\:my-5 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-xl\:ml-5,
   .-xl\:mx-5 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-xl\:mr-5,
   .-xl\:mx-5 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .xl\:p-5 {
     padding: 20px;
@@ -4475,23 +4075,23 @@ video {
     padding-right: 20px;
   }
   .-xl\:p-5 {
-    padding: -auto;
+    padding: -4px;
   }
   .-xl\:pt-5,
   .-xl\:py-5 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-xl\:pb-5,
   .-xl\:py-5 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-xl\:pl-5,
   .-xl\:px-5 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-xl\:pr-5,
   .-xl\:px-5 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .xl\:m-6 {
     margin: 24px;
@@ -4513,23 +4113,23 @@ video {
     margin-right: 24px;
   }
   .-xl\:m-6 {
-    margin: -auto;
+    margin: -4px;
   }
   .-xl\:mt-6,
   .-xl\:my-6 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-xl\:mb-6,
   .-xl\:my-6 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-xl\:ml-6,
   .-xl\:mx-6 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-xl\:mr-6,
   .-xl\:mx-6 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .xl\:p-6 {
     padding: 24px;
@@ -4551,23 +4151,23 @@ video {
     padding-right: 24px;
   }
   .-xl\:p-6 {
-    padding: -auto;
+    padding: -4px;
   }
   .-xl\:pt-6,
   .-xl\:py-6 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-xl\:pb-6,
   .-xl\:py-6 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-xl\:pl-6,
   .-xl\:px-6 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-xl\:pr-6,
   .-xl\:px-6 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .xl\:m-10 {
     margin: 40px;
@@ -4589,23 +4189,23 @@ video {
     margin-right: 40px;
   }
   .-xl\:m-10 {
-    margin: -auto;
+    margin: -4px;
   }
   .-xl\:mt-10,
   .-xl\:my-10 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-xl\:mb-10,
   .-xl\:my-10 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-xl\:ml-10,
   .-xl\:mx-10 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-xl\:mr-10,
   .-xl\:mx-10 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .xl\:p-10 {
     padding: 40px;
@@ -4627,23 +4227,23 @@ video {
     padding-right: 40px;
   }
   .-xl\:p-10 {
-    padding: -auto;
+    padding: -4px;
   }
   .-xl\:pt-10,
   .-xl\:py-10 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-xl\:pb-10,
   .-xl\:py-10 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-xl\:pl-10,
   .-xl\:px-10 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-xl\:pr-10,
   .-xl\:px-10 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
   .xl\:m-12 {
     margin: 48px;
@@ -4665,23 +4265,23 @@ video {
     margin-right: 48px;
   }
   .-xl\:m-12 {
-    margin: -auto;
+    margin: -4px;
   }
   .-xl\:mt-12,
   .-xl\:my-12 {
-    margin-top: -auto;
+    margin-top: -4px;
   }
   .-xl\:mb-12,
   .-xl\:my-12 {
-    margin-bottom: -auto;
+    margin-bottom: -4px;
   }
   .-xl\:ml-12,
   .-xl\:mx-12 {
-    margin-left: -auto;
+    margin-left: -4px;
   }
   .-xl\:mr-12,
   .-xl\:mx-12 {
-    margin-right: -auto;
+    margin-right: -4px;
   }
   .xl\:p-12 {
     padding: 48px;
@@ -4703,23 +4303,23 @@ video {
     padding-right: 48px;
   }
   .-xl\:p-12 {
-    padding: -auto;
+    padding: -4px;
   }
   .-xl\:pt-12,
   .-xl\:py-12 {
-    padding-top: -auto;
+    padding-top: -4px;
   }
   .-xl\:pb-12,
   .-xl\:py-12 {
-    padding-bottom: -auto;
+    padding-bottom: -4px;
   }
   .-xl\:pl-12,
   .-xl\:px-12 {
-    padding-left: -auto;
+    padding-left: -4px;
   }
   .-xl\:pr-12,
   .-xl\:px-12 {
-    padding-right: -auto;
+    padding-right: -4px;
   }
 }
 

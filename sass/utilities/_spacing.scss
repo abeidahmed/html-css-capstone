@@ -54,7 +54,7 @@ $spacings: (
           #{$prop}-right: $space;
         }
 
-        @if $value != auto or $value != 0 {
+        @if $value != auto and $value != 0 {
           .-#{$bp-sort}#{$initial}-#{$value} {
             #{$prop}: -$space;
           }
