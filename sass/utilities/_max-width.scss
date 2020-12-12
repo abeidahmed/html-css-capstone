@@ -1,0 +1,9 @@
+$max-widths: (
+  7xl: 80rem,
+);
+
+@each $prop, $value in $max-widths {
+  .max-w-#{$prop} {
+    max-width: $value;
+  }
+}
