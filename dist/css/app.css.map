@@ -12,7 +12,7 @@
         "../../sass/mixins/_inset.scss",
         "../../sass/mixins/_screen-reader.scss",
         "../../sass/vendor/_all.scss",
-        "../../sass/vendor/_normalize.scss",
+        "../../sass/vendor/_reset.scss",
         "../../sass/components/_all.scss",
         "../../sass/components/_button.scss",
         "../../sass/components/_avatar.scss",
