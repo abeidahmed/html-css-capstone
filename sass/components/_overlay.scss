@@ -1,0 +1,9 @@
+.overlay {
+  @include inset-full;
+}
+
+.overlay--dark {
+  background-color: $gray-900;
+  z-index: 10;
+  opacity: 0.4;
+}
