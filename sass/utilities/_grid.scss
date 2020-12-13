@@ -11,6 +11,7 @@ $grid-columns: (
     @each $prop, $value in $grid-columns {
       .#{$bp-sort}grid-cols-#{$prop} {
         grid-template-columns: $value;
+        -ms-grid-columns: $value;
       }
     }
   }
