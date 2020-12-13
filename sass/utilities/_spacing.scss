@@ -34,6 +34,7 @@ $spacings: (
 
 @each $breakpoint in map-keys($breakpoints) {
   $bp-sort: breakpoint-infix($breakpoint);
+
   @include breakpoint($breakpoint) {
     @each $value, $space in $spacings {
       @each $prop, $initial in (margin: m, padding: p) {

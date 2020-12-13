@@ -59,11 +59,6 @@ button {
      * Work around a Firefox/IE bug where the transparent `button` background
      * results in a loss of the default `button` focus styles.
      */
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
 fieldset {
   margin: 0;
   padding: 0;
@@ -195,21 +190,25 @@ input[type='submit'] {
   transition: all 150ms ease-in-out;
 }
 
+button:disabled, button[disabled],
+[role='button']:disabled,
+[role='button'][disabled],
+input[type='submit']:disabled,
+input[type='submit'][disabled] {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
 button:focus:not([data-focus-visible-added]),
 [role='button']:focus:not([data-focus-visible-added]),
 input[type='submit']:focus:not([data-focus-visible-added]) {
   outline: none;
 }
 
-button:disabled,
-button[disabled],
-[role='button']:disabled,
-[role='button'][disabled],
-input:disabled,
-input[disabled] {
-  opacity: 0.5;
-  cursor: default;
-  pointer-events: none;
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 table {
@@ -349,7 +348,7 @@ video {
 }
 
 .btn--default:hover {
-  color: #888888;
+  color: #888;
 }
 
 .btn--primary {
@@ -445,7 +444,7 @@ video {
 
 .hero__title {
   font-size: 48px;
-  font-family: Gotham;
+  font-family: Gotham, system-ui, -apple-system;
   line-height: 40px;
 }
 
@@ -802,29 +801,29 @@ video {
   display: block;
 }
 
-.header__toggle:checked + .header__burger > div {
+.header__toggle:not(:checked) + .header__burger > span {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
-.header__toggle:checked + .header__burger > div:nth-child(1) {
+.header__toggle:checked + .header__burger > span {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.header__toggle:checked + .header__burger > span:nth-child(1) {
   -webkit-transform: rotate(-45deg) translate(-9px, 2px);
           transform: rotate(-45deg) translate(-9px, 2px);
 }
 
-.header__toggle:checked + .header__burger > div:nth-child(2) {
+.header__toggle:checked + .header__burger > span:nth-child(2) {
   opacity: 0;
   width: 0;
 }
 
-.header__toggle:checked + .header__burger > div:nth-last-child(1) {
+.header__toggle:checked + .header__burger > span:nth-last-child(1) {
   -webkit-transform: rotate(45deg) translate(-9px, -3px);
           transform: rotate(45deg) translate(-9px, -3px);
-}
-
-.header__toggle:not(:checked) + .header__burger > div {
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 
 .overlay {
@@ -5435,11 +5434,11 @@ video {
 }
 
 .text-gray-500 {
-  color: #888888;
+  color: #888;
 }
 
 .hover\:text-gray-500:hover {
-  color: #888888;
+  color: #888;
 }
 
 .text-gray-700 {

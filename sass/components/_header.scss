@@ -24,7 +24,11 @@
   display: block;
 }
 
-.header__toggle:checked + .header__burger > div {
+.header__toggle:not(:checked) + .header__burger > span {
+  transition: all 0.4s ease;
+}
+
+.header__toggle:checked + .header__burger > span {
   transition: all 0.4s ease;
 
   &:nth-child(1) {
@@ -39,8 +43,4 @@
   &:nth-last-child(1) {
     transform: rotate(45deg) translate(-9px, -3px);
   }
-}
-
-.header__toggle:not(:checked) + .header__burger > div {
-  transition: all 0.4s ease;
 }

@@ -27,17 +27,12 @@
   opacity: 1;
 }
 
-.form-input::-moz-placeholder {
-  color: #a0aec0;
-  opacity: 1;
-}
-
 .form-input:-ms-input-placeholder {
   color: #a0aec0;
   opacity: 1;
 }
 
-.form-input::-ms-input-placeholder {
+.form-input::-moz-placeholder {
   color: #a0aec0;
   opacity: 1;
 }

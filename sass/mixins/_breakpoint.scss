@@ -15,6 +15,7 @@
 
 @function breakpoint-min($breakpoint-name, $bp: $breakpoints) {
   $min: map-get($bp, $breakpoint-name);
+
   @return if($min != 0, $min, null);
 }
 
@@ -39,6 +40,7 @@
   @if type-of($number) == 'number' and not unitless($number) {
     @return $number / ($number * 0 + 1);
   }
+
   @return $number;
 }
 
@@ -58,6 +60,7 @@
   // Max-width
   @else if $direction == 'down' {
     $next: graspcss-next($breakpoint-name, $bp);
+
     @return breakpoint-max($breakpoint-name, $bp);
   }
   // Only
@@ -71,13 +74,16 @@
     // 2
     @else if $down == null {
       $rtd: $rtd + '(min-width: #{$up})';
+
       @return $rtd;
     }
     // 3
     @else if $up == null {
       $rtu: $rtu + '(max-width: #{$down})';
+
       @return $rtu;
     }
+
     @return $str;
   }
 }

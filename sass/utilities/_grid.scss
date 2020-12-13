@@ -7,6 +7,7 @@ $grid-columns: (
 
 @each $breakpoint in map-keys($breakpoints) {
   $bp-sort: breakpoint-infix($breakpoint);
+
   @include breakpoint($breakpoint) {
     @each $prop, $value in $grid-columns {
       .#{$bp-sort}grid-cols-#{$prop} {
@@ -25,6 +26,7 @@ $grid-spans: (
 
 @each $breakpoint in map-keys($breakpoints) {
   $bp-sort: breakpoint-infix($breakpoint);
+
   @include breakpoint($breakpoint) {
     @each $prop, $value in $grid-spans {
       .#{$bp-sort}col-span-#{$prop} {
@@ -45,6 +47,7 @@ $grid-gaps: (
 
 @each $breakpoint in map-keys($breakpoints) {
   $bp-sort: breakpoint-infix($breakpoint);
+
   @include breakpoint($breakpoint) {
     @each $prop, $value in $grid-gaps {
       .#{$bp-sort}gap-#{$prop} {

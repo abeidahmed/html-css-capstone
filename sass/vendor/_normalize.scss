@@ -34,11 +34,6 @@ button {
      * results in a loss of the default `button` focus styles.
      */
 
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
 fieldset {
   margin: 0;
   padding: 0;
@@ -151,20 +146,21 @@ input[type='submit'] {
   font-family: $font-family-default;
   transition: all 150ms ease-in-out;
 
+  &:disabled,
+  &[disabled] {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+  }
+
   &:focus:not([data-focus-visible-added]) {
     outline: none;
   }
 }
 
-button:disabled,
-button[disabled],
-[role='button']:disabled,
-[role='button'][disabled],
-input:disabled,
-input[disabled] {
-  opacity: 0.5;
-  cursor: default;
-  pointer-events: none;
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 table {
