@@ -7,5 +7,103 @@
     <link rel="stylesheet" href="./dist/css/app.css" />
     <title>Workflow workcation | Show</title>
   </head>
-  <body></body>
+  <body>
+    <header class="bg-gray-800">
+      <div class="max-w-7xl flex items-center justify-between px-4 sm:px-6 lg:px-8 h-14 mx-auto">
+        <div class="flex items-center">
+          <a href="/">
+            <img src="./assets/logo-on-dark.svg" alt="Logo" />
+          </a>
+          <nav class="items-center ml-10 hidden md:flex">
+            <a href="#" class="flex items-center text-gray-500 ml-6 hover:text-gray-400">
+              <i class="bx bx-home-alt text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Home</span>
+            </a>
+            <a href="/search.html" class="flex items-center text-gray-500 ml-6 hover:text-gray-400">
+              <i class="bx bx-collection text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Collection</span>
+            </a>
+            <a href="#" class="flex items-center text-gray-500 ml-6 hover:text-gray-400">
+              <i class="bx bx-cart text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Purchase list</span>
+            </a>
+            <div class="ml-10">
+              <button type="button" class="btn btn--primary uppercase text-xs">Post an ad</button>
+            </div>
+          </nav>
+        </div>
+        <div class="items-center hidden md:flex">
+          <button type="button" class="text-gray-500 popper hover:text-gray-400 hidden lg:block">
+            <i class="bx bx-message-rounded-dots text-2xl"></i>
+            <span class="popper__display">2</span>
+          </button>
+          <button type="button" class="flex items-center ml-6">
+            <img
+              class="avatar avatar--rounded"
+              src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              alt=""
+            />
+            <span class="text-white text-sm items-center ml-2 hidden lg:flex">
+              John Doe
+              <i class="bx bx-chevron-down text-xl text-gray-500"></i>
+            </span>
+          </button>
+        </div>
+        <div class="flex items-center justify-center md:hidden">
+          <input type="checkbox" id="toggle" class="header__toggle" />
+          <label for="toggle" class="header__burger">
+            <div class="header__burger-bar"></div>
+            <div class="header__burger-bar"></div>
+            <div class="header__burger-bar"></div>
+          </label>
+          <div class="mobile-nav bg-gray-800 pb-6 pt-3 md:hidden px-4 sm:px-6">
+            <nav>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-home-alt text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Home</span>
+              </a>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-collection text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Collection</span>
+              </a>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-cart text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Purchase list</span>
+              </a>
+            </nav>
+            <hr class="my-4 border-gray-600" />
+            <button type="button" class="flex items-center">
+              <img
+                class="avatar avatar--rounded"
+                src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <span class="text-white ml-2">
+                John Doe
+              </span>
+            </button>
+            <nav class="mt-2">
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-user-circle text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Your profile</span>
+              </a>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-cog text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Settings</span>
+              </a>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-log-out text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Logout</span>
+              </a>
+            </nav>
+            <div>
+              <button type="button" class="btn btn--primary uppercase text-xs mt-6 w-full">
+                Post an ad
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
