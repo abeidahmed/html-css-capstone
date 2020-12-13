@@ -184,10 +184,20 @@ textarea::placeholder {
 button,
 [role='button'],
 input[type='submit'] {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
   cursor: pointer;
   font-family: helveticaneue, system-ui, -apple-system;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
+}
+
+button:focus,
+[role='button']:focus,
+input[type='submit']:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 button:disabled, button[disabled],
@@ -204,11 +214,6 @@ button:focus:not([data-focus-visible-added]),
 [role='button']:focus:not([data-focus-visible-added]),
 input[type='submit']:focus:not([data-focus-visible-added]) {
   outline: none;
-}
-
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
 }
 
 table {
@@ -242,7 +247,6 @@ a {
      * supplement a partial reset that is already applied by
      * normalize.css.
      */
-button,
 input,
 optgroup,
 select,
@@ -268,7 +272,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-family: ui-monospace;
 }
 
 /**
