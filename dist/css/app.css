@@ -365,6 +365,21 @@ video {
   background-color: #ce3e54;
 }
 
+.btn--link {
+  color: #334155;
+  background-color: transparent;
+}
+
+.btn--link:hover {
+  background-color: #e2e8f0;
+  border-color: #e2e8f0;
+}
+
+.btn--link:active {
+  background-color: #d4d4d8;
+  border-color: #d4d4d8;
+}
+
 .btn--primary.btn--minimal {
   border-color: #d35266;
   background-color: transparent;
@@ -823,6 +838,11 @@ video {
 
 .bg-gray-800 {
   background-color: #383838;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .flex {

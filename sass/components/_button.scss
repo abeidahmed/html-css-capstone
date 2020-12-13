@@ -54,6 +54,21 @@
   }
 }
 
+.btn--link {
+  color: $gray-700;
+  background-color: transparent;
+
+  &:hover {
+    background-color: $gray-200;
+    border-color: $gray-200;
+  }
+
+  &:active {
+    background-color: $gray-300;
+    border-color: $gray-300;
+  }
+}
+
 .btn--primary.btn--minimal {
   border-color: $primary;
   background-color: transparent;

@@ -8,3 +8,7 @@ $backgrounds: (
     background-color: $value;
   }
 }
+
+.object-cover {
+  object-fit: cover;
+}
