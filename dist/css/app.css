@@ -763,6 +763,11 @@ video {
   background-color: #fce7f3;
 }
 
+.tag--lg {
+  padding: 6px 14px;
+  font-size: 14px;
+}
+
 .mobile-nav {
   display: none;
   position: absolute;
