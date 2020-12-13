@@ -272,7 +272,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: ui-monospace;
+  font-family: Consolas, monospace;
 }
 
 /**
