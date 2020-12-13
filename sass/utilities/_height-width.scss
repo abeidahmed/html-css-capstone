@@ -4,6 +4,7 @@ $height-widths: (
   full: 100%,
   14: $default-height-width * 14,
   20: $default-height-width * 20,
+  25: $default-height-width * 25,
 );
 
 @each $prop, $value in $height-widths {

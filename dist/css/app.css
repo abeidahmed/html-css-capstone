@@ -678,6 +678,10 @@ video {
      object-fit: cover;
 }
 
+.card-aspect-ratio--56 {
+  padding-bottom: 56%;
+}
+
 .card-aspect-ratio--70 {
   padding-bottom: 70%;
 }
@@ -5399,6 +5403,14 @@ video {
 
 .w-20 {
   width: 80px;
+}
+
+.h-25 {
+  height: 100px;
+}
+
+.w-25 {
+  width: 100px;
 }
 
 .text-white {

@@ -152,7 +152,7 @@
           </div>
           <!-- map and aerial -->
           <div class="mt-4 grid grid-cols-2 justify-between gap-4">
-            <div class="card-aspect-ratio shadow-md rounded-lg" style="padding-bottom: 56%;">
+            <div class="card-aspect-ratio shadow-md rounded-lg card-aspect-ratio--56">
               <div class="overlay overlay--dark rounded-lg"></div>
               <div
                 class="absolute text-white z-50 inset-center uppercase text-lg font-bold tracking-wider"
@@ -165,7 +165,7 @@
                 class="rounded-lg card-aspect-ratio__target"
               />
             </div>
-            <div class="card-aspect-ratio shadow-md rounded-lg" style="padding-bottom: 56%;">
+            <div class="card-aspect-ratio shadow-md rounded-lg card-aspect-ratio--56">
               <div class="overlay overlay--dark rounded-lg"></div>
               <div
                 class="absolute text-white z-50 inset-center uppercase text-lg font-bold tracking-wider"
@@ -223,8 +223,9 @@
           </div>
         </div>
       </div>
-      <div class="mt-8">
+      <section class="mt-8">
         <h2 class="text-lg font-medium">Explore more</h2>
+        <!-- tabs -->
         <div class="mt-4 overflow-x-hidden">
           <nav class="flex items-center justify-between overflow-x-auto">
             <button class="btn btn--primary btn--minimal">Restaurants</button>
@@ -236,10 +237,146 @@
             <button class="btn btn--link">Fitness</button>
           </nav>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div class="mt-4">
+          <!-- map -->
+          <div class="rounded-lg overflow-hidden">
+            <iframe
+              width="100%"
+              height="304"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(Workflow)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+          </div>
+          <!-- cards -->
+          <div class="mt-4 overflow-x-hidden">
+            <div class="flex overflow-x-auto gap-4 pb-3">
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">Breakfast</h5>
+                  <p class="text-xs text-gray-500 leading-5">Shopping</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1541173109020-9c5d8a48e169?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">New Orleans special</h5>
+                  <p class="text-xs text-gray-500 leading-5">Cafe</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">Hair wax and spa</h5>
+                  <p class="text-xs text-gray-500 leading-5">Fitness</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">LA Fitness</h5>
+                  <p class="text-xs text-gray-500 leading-5">Fitness</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">Calvin and chipmunks</h5>
+                  <p class="text-xs text-gray-500 leading-5">Shopping</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">Stacy’s Bar</h5>
+                  <p class="text-xs text-gray-500 leading-5">Night life</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">Mc Arthur</h5>
+                  <p class="text-xs text-gray-500 leading-5">Cafe</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">Yell-it</h5>
+                  <p class="text-xs text-gray-500 leading-5">Bar</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>
