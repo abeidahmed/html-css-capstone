@@ -82,11 +82,15 @@
 
     @if $up != null and $down != null {
       $str: $str + '(min-width: #{$up}) and (max-width: #{$down})';
-    } @else if $down == null {
+    }
+    //
+    @else if $down == null {
       $rtd: $rtd + '(min-width: #{$up})';
 
       @return $rtd;
-    } @else if $up == null {
+    }
+    //
+    @else if $up == null {
       $rtu: $rtu + '(max-width: #{$down})';
 
       @return $rtu;
