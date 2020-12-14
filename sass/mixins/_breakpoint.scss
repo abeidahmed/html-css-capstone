@@ -1,6 +1,12 @@
+/// @author Abeid Ahmed
+/// @link https://github.com/abeidahmed
+
 @if nth(map-values($breakpoints), 1) != 0 {
   @error 'The first key in the $breakpoints map must have a value of "0".';
 }
+
+/// Inspired by Bootstrap
+/// @link https://getbootstrap.com/
 
 @function graspcss-next($breakpoint-name, $bp: $breakpoints) {
   $gbp: map-keys($bp);
@@ -13,11 +19,17 @@
   @return null;
 }
 
+/// Inspired by Bootstrap
+/// @link https://getbootstrap.com/
+
 @function breakpoint-min($breakpoint-name, $bp: $breakpoints) {
   $min: map-get($bp, $breakpoint-name);
 
   @return if($min != 0, $min, null);
 }
+
+/// Inspired by Bootstrap's breakpoint mixin
+/// @link https://getbootstrap.com/
 
 @function breakpoint-max($breakpoint-name, $bp: $breakpoints) {
   $next: graspcss-next($breakpoint-name, $bp);
@@ -44,41 +56,37 @@
   @return $number;
 }
 
-/// @param {breakpoint-name} $breakpoint-name - xs, sm, md, lg, xlg
+/// @param {breakpoint-name} $breakpoint-name - sm, md, lg, xl
 /// @param {direction} $direction - up, down, only
-/// @returns {breakpoints} media queries
+/// @returns {breakpoints} breakpoints-map consisting of key-value pairs
 
 @function breakpoint($breakpoint-name, $direction, $bp: $breakpoints) {
   $str: '';
   $rtd: '';
   $rtu: '';
   $bp: graspcss-px-em($bp);
-  // Min width
+  // @media (min-width: some-width) {}
   @if $direction == 'up' {
     @return breakpoint-min($breakpoint-name, $bp);
   }
-  // Max-width
+  // @media (max-width: some-width) {}
   @else if $direction == 'down' {
     $next: graspcss-next($breakpoint-name, $bp);
 
     @return breakpoint-max($breakpoint-name, $bp);
   }
-  // Only
+  // @media (min-width: some-width and max-width: some-width) {}
   @else if $direction == 'only' {
     $up: breakpoint-min($breakpoint-name, $bp);
     $down: breakpoint-max($breakpoint-name, $bp);
 
     @if $up != null and $down != null {
       $str: $str + '(min-width: #{$up}) and (max-width: #{$down})';
-    }
-    // 2
-    @else if $down == null {
+    } @else if $down == null {
       $rtd: $rtd + '(min-width: #{$up})';
 
       @return $rtd;
-    }
-    // 3
-    @else if $up == null {
+    } @else if $up == null {
       $rtu: $rtu + '(max-width: #{$down})';
 
       @return $rtu;
@@ -88,13 +96,14 @@
   }
 }
 
-/// @param {breakpoint-name} $breakpoint-name - xs, sm, md, lg, xl
+/// @param {breakpoint-name} $breakpoint-name - sm, md, lg, xl
 /// @param {direction} $direction - up, down, only
-/// @returns {breakpoints} media queries
+/// @returns {breakpoints} breakpoints-map consisting of key-value pairs
 
-/// usage - @include breakpoint($breakpoint-name, $direction) {
-///            write your css...
-///         }
+/// @example
+/// @include breakpoint($breakpoint-name, $direction) {
+///   write your css...
+/// }
 
 @mixin breakpoint($breakpoint-name, $direction: up, $bp: $breakpoints) {
   $size: breakpoint($breakpoint-name, $direction, $bp);
