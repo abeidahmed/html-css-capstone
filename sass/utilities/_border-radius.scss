@@ -2,6 +2,7 @@ $border-radius: (
   0: 0,
   md: 6px,
   lg: 8px,
+  full: 9999px,
 );
 
 @each $breakpoint in map-keys($breakpoints) {

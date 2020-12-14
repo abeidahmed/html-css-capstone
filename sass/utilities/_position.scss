@@ -1,4 +1,4 @@
-$positions: (absolute);
+$positions: (absolute, relative);
 
 @each $value in $positions {
   .#{$value} {
