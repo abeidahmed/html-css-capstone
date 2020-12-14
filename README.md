@@ -11,8 +11,16 @@ All the `.scss` files have been segmentized into directories depending on their 
 - Figma [files](https://www.figma.com/file/sVeLvwLhlhU4rdbDDmKp3s/html-capstone?node-id=0%3A1) used for wireframing the website design.
 - [Logo](https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg) from TailwindUI
 
+### Home page card layout
+
 ![home page card](./assets/screenshot/home-cards.jpg)
+
+### Search page layout
+
 ![search layout](./assets/screenshot/search-layout.jpg)
+
+### Show page layout
+
 ![show layout](./assets/screenshot/show-layout.jpg)
 
 ## Built With
