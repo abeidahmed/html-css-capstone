@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/css/app.min.css" />
+    <title>Workflow workcation | Search</title>
+  </head>
+  <body>
+    <header class="bg-gray-800">
+      <div class="max-w-7xl flex px-4 sm:px-6 lg:px-8 items-center justify-between h-14 mx-auto">
+        <div class="flex items-center">
+          <a href="./index.html">
+            <img src="./assets/logo-on-dark.svg" alt="Logo" />
+          </a>
+          <nav class="items-center ml-10 hidden md:flex">
+            <a href="./index.html" class="flex items-center text-gray-500 hover:text-gray-400">
+              <i class="bx bx-home-alt text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Home</span>
+            </a>
+            <a href="./search.html" class="flex items-center text-primary ml-6">
+              <i class="bx bx-collection text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Collection</span>
+            </a>
+            <a href="./show.html" class="flex items-center text-gray-500 ml-6 hover:text-gray-400">
+              <i class="bx bx-cart text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Purchase list</span>
+            </a>
+            <div class="ml-10">
+              <button type="button" class="btn btn--primary uppercase text-xs">Post an ad</button>
+            </div>
+          </nav>
+        </div>
+        <div class="items-center hidden md:flex">
+          <button type="button" class="text-gray-500 popper hover:text-gray-400 hidden lg:block">
+            <i class="bx bx-message-rounded-dots text-2xl"></i>
+            <span class="popper__display">2</span>
+          </button>
+          <button type="button" class="flex items-center ml-6">
+            <img
+              class="avatar avatar--rounded"
+              src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              alt=""
+            />
+            <span class="text-white text-sm items-center ml-2 hidden lg:flex">
+              John Doe
+              <i class="bx bx-chevron-down text-xl text-gray-500"></i>
+            </span>
+          </button>
+        </div>
+        <div class="flex items-center justify-center md:hidden">
+          <input type="checkbox" id="toggle" class="header__toggle" />
+          <label for="toggle" class="header__burger">
+            <span class="header__burger-bar"></span>
+            <span class="header__burger-bar"></span>
+            <span class="header__burger-bar"></span>
+          </label>
+          <div class="mobile-nav bg-gray-800 pb-6 pt-3 md:hidden px-4 sm:px-6">
+            <nav>
+              <a
+                href="./index.html"
+                class="flex items-center text-gray-500 hover:text-gray-400 py-2"
+              >
+                <i class="bx bx-home-alt text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Home</span>
+              </a>
+              <a href="./search.html" class="flex items-center text-primary py-2">
+                <i class="bx bx-collection text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Collection</span>
+              </a>
+              <a
+                href="./show.html"
+                class="flex items-center text-gray-500 hover:text-gray-400 py-2"
+              >
+                <i class="bx bx-cart text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Purchase list</span>
+              </a>
+            </nav>
+            <hr class="my-4 border-gray-600" />
+            <button type="button" class="flex items-center">
+              <img
+                class="avatar avatar--rounded"
+                src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <span class="text-white ml-2">
+                John Doe
+              </span>
+            </button>
+            <nav class="mt-2">
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-user-circle text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Your profile</span>
+              </a>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-cog text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Settings</span>
+              </a>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-log-out text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Logout</span>
+              </a>
+            </nav>
+            <div>
+              <button type="button" class="btn btn--primary uppercase text-xs mt-6 w-full">
+                Post an ad
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <div class="px-4 sm:px-6 lg:px-8">
+          <div>
+            <h1 class="hero__title">Workflow</h1>
+            <p class="hero__description">Buying and selling couldn't be simpler than this.</p>
+          </div>
+          <form action="./search.html" class="max-w-3xl mx-auto mt-6 sm:flex">
+            <div class="flex-1">
+              <select class="form-select block w-full sm:rounded-r-0 sm:rounded-l-lg py-3">
+                <option>House</option>
+                <option selected>Apartment</option>
+                <option>Loft house</option>
+                <option>Town house</option>
+              </select>
+            </div>
+            <div class="mt-3 flex-1 sm:mt-0">
+              <input
+                type="text"
+                placeholder="Search location..."
+                class="form-input w-full block sm:rounded-0 py-3"
+              />
+            </div>
+            <div class="mt-3 sm:mt-0">
+              <button type="submit" class="btn search__btn sm:rounded-l-0 sm:rounded-r-lg">
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="mt-6 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mt-6 lg:grid lg:grid-cols-3 gap-x-12">
+          <!-- filter -->
+          <aside class="hidden lg:block lg:col-span-1">
+            <div class="flex items-center justify-between space-x-5">
+              <div class="flex-1">
+                <label for="room-select" class="input-label">Rooms</label>
+                <select id="room-select" class="form-select block w-full text-sm focus:form-select">
+                  <option value="2-4">2 rooms</option>
+                  <option value="2-4">4 rooms</option>
+                  <option value="2-4">6 rooms</option>
+                  <option value="2-4">7+ rooms</option>
+                </select>
+              </div>
+              <div class="flex-1">
+                <label for="bath-select" class="input-label">Bathrooms</label>
+                <select id="bath-select" class="form-select block w-full text-sm focus:form-select">
+                  <option value="2-4">2 bath</option>
+                  <option value="2-4">4 bath</option>
+                  <option value="2-4">6 bath</option>
+                  <option value="2-4">7+ bath</option>
+                </select>
+              </div>
+            </div>
+            <hr class="border-gray-200 my-4" />
+            <div>
+              <span class="input-label">Property type</span>
+              <div class="flex flex-col space-y-4">
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio focus:form-radio"
+                    name="propertyType"
+                    value="house"
+                  />
+                  <span class="ml-2 leading-5 block">House</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio focus:form-radio"
+                    name="propertyType"
+                    value="apartment"
+                  />
+                  <span class="ml-2 leading-5 block">Apartment</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio focus:form-radio"
+                    name="propertyType"
+                    value="loftHouse"
+                  />
+                  <span class="ml-2 leading-5 block">Loft house</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio focus:form-radio"
+                    name="propertyType"
+                    value="townHouse"
+                  />
+                  <span class="ml-2 leading-5 block">Town house</span>
+                </label>
+              </div>
+            </div>
+            <hr class="border-gray-200 my-4" />
+            <div>
+              <span class="input-label">Amenities</span>
+              <div class="space-y-4 flex flex-col">
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Balcony</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Pool</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Beach</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Pet friendly</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Kid friendly</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Parking</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" class="form-checkbox focus:form-checkbox" />
+                  <span class="ml-2 leading-5 block">Air conditioning</span>
+                </label>
+              </div>
+            </div>
+          </aside>
+          <div class="lg:col-span-2">
+            <p class="text-sm text-gray-500 leading-5">
+              <span class="text-gray-700">138</span> results for apartment type
+              <span class="text-gray-700">house</span> in the
+              <span class="text-gray-700">Santa Cruz area</span>
+            </p>
+            <!-- card list -->
+            <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
+              <!-- card 1 -->
+              <div class="rounded-lg overflow-hidden bg-white shadow sm:col-span-1 lg:flex">
+                <div class="card-aspect-ratio card-aspect-ratio--70 horizontal-card">
+                  <div class="card__image-count">1/49</div>
+                  <div class="card__image-tag">
+                    <span class="tag tag--primary uppercase">Plus</span>
+                  </div>
+                  <a href="./show.html">
+                    <img
+                      src="https://images.unsplash.com/photo-1593354114979-c068df9351e1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+                      alt=""
+                      class="card-aspect-ratio__target"
+                    />
+                  </a>
+                </div>
+                <div class="p-4 flex-1 flex justify-between">
+                  <div>
+                    <span class="leading-5 text-gray-500 inline-flex items-center">
+                      <i class="bx bx-refresh mr-1 text-base"></i>
+                      <span class="block text-sm">1 hr. ago</span>
+                    </span>
+                    <h2 class="text-xl font-medium leading-6">
+                      <a href="./show.html" class="hover:text-gray-700">
+                        Modern home in city center
+                      </a>
+                    </h2>
+                    <div class="mt-2">
+                      <span class="leading-6 text-gray-700">Santa Cruz, US</span>
+                      <span class="mx-1">&#xb7;</span>
+                      <span class="leading-6 text-gray-700">
+                        $1,900.00 <span class="text-gray-500">/ wk</span>
+                      </span>
+                    </div>
+                    <div class="mt-2 flex items-center flex-wrap">
+                      <div class="flex items-center text-sm text-gray-700 mr-4">
+                        <i class="bx bxs-bed text-xl text-gray-400"></i>
+                        <span class="ml-2">2 Beds</span>
+                      </div>
+                      <div class="flex items-center text-sm text-gray-700 mr-4">
+                        <i class="bx bxs-bath text-xl text-gray-400"></i>
+                        <span class="ml-2">3 Baths</span>
+                      </div>
+                      <div class="flex items-center text-sm text-gray-700">
+                        <i class="bx bxs-area text-xl text-gray-400"></i>
+                        <span class="ml-2">1,450 sq. ft.</span>
+                      </div>
+                    </div>
+                    <div class="mt-3 flex items-center flex-wrap">
+                      <button type="button" class="btn mr-4 mt-3 btn--primary btn--minimal btn--sm">
+                        Email property
+                      </button>
+                      <button type="button" class="btn mt-3 btn--primary btn btn--sm">
+                        (404)-3626246
+                      </button>
+                    </div>
+                  </div>
+                  <div class="space-x-3 hidden lg:flex items-start">
+                    <button type="button" class="text-gray-500">
+                      <i class="bx bx-bookmark text-xl"></i>
+                    </button>
+                    <button type="button" class="text-primary">
+                      <i class="bx bxs-heart text-xl"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="rounded-lg overflow-hidden bg-white shadow sm:col-span-1 lg:flex">
+                <div class="card-aspect-ratio card-aspect-ratio--70 horizontal-card">
+                  <div class="card__image-count">4/23</div>
+                  <div class="card__image-tag">
+                    <span class="tag tag--primary uppercase">Plus</span>
+                  </div>
+                  <a href="./show.html">
+                    <img
+                      src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+                      alt=""
+                      class="card-aspect-ratio__target"
+                    />
+                  </a>
+                </div>
+                <div class="p-4 flex-1 flex justify-between">
+                  <div>
+                    <span class="leading-5 text-gray-500 inline-flex items-center">
+                      <i class="bx bx-refresh mr-1 text-base"></i>
+                      <span class="block text-sm">1.5 hr. ago</span>
+                    </span>
+                    <h2 class="text-xl font-medium leading-6">
+                      <a href="./show.html" class="hover:text-gray-700">
+                        Modern home in city center
+                      </a>
+                    </h2>
+                    <div class="mt-2">
+                      <span class="leading-6 text-gray-700">Santa Cruz, US</span>
+                      <span class="mx-1">&#xb7;</span>
+                      <span class="leading-6 text-gray-700">
+                        $1,900.00 <span class="text-gray-500">/ wk</span>
+                      </span>
+                    </div>
+                    <div class="mt-2 flex items-center flex-wrap">
+                      <div class="flex items-center text-sm text-gray-700 mr-4">
+                        <i class="bx bxs-bed text-xl text-gray-400"></i>
+                        <span class="ml-2">2 Beds</span>
+                      </div>
+                      <div class="flex items-center text-sm text-gray-700 mr-4">
+                        <i class="bx bxs-bath text-xl text-gray-400"></i>
+                        <span class="ml-2">3 Baths</span>
+                      </div>
+                      <div class="flex items-center text-sm text-gray-700">
+                        <i class="bx bxs-area text-xl text-gray-400"></i>
+                        <span class="ml-2">1,450 sq. ft.</span>
+                      </div>
+                    </div>
+                    <div class="mt-3 flex items-center flex-wrap">
+                      <button type="button" class="btn mr-4 mt-3 btn--primary btn--minimal btn--sm">
+                        Email property
+                      </button>
+                      <button type="button" class="btn mt-3 btn--primary btn btn--sm">
+                        (404)-3626246
+                      </button>
+                    </div>
+                  </div>
+                  <div class="space-x-3 hidden lg:flex items-start">
+                    <button type="button" class="text-gray-500">
+                      <i class="bx bx-bookmark text-xl"></i>
+                    </button>
+                    <button type="button" class="text-primary">
+                      <i class="bx bxs-heart text-xl"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div class="rounded-lg overflow-hidden bg-white shadow sm:col-span-1 lg:flex">
+                <div class="card-aspect-ratio card-aspect-ratio--70 horizontal-card">
+                  <div class="card__image-count">2/30</div>
+                  <div class="card__image-tag">
+                    <span class="tag tag--primary uppercase">Plus</span>
+                  </div>
+                  <a href="./show.html">
+                    <img
+                      src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+                      alt=""
+                      class="card-aspect-ratio__target"
+                    />
+                  </a>
+                </div>
+                <div class="p-4 flex-1 flex justify-between">
+                  <div>
+                    <span class="leading-5 text-gray-500 inline-flex items-center">
+                      <i class="bx bx-refresh mr-1 text-base"></i>
+                      <span class="block text-sm">2.5 hr. ago</span>
+                    </span>
+                    <h2 class="text-xl font-medium leading-6">
+                      <a href="./show.html" class="hover:text-gray-700">
+                        Modern home in city center
+                      </a>
+                    </h2>
+                    <div class="mt-2">
+                      <span class="leading-6 text-gray-700">Santa Cruz, US</span>
+                      <span class="mx-1">&#xb7;</span>
+                      <span class="leading-6 text-gray-700">
+                        $1,900.00 <span class="text-gray-500">/ wk</span>
+                      </span>
+                    </div>
+                    <div class="mt-2 flex items-center flex-wrap">
+                      <div class="flex items-center text-sm text-gray-700 mr-4">
+                        <i class="bx bxs-bed text-xl text-gray-400"></i>
+                        <span class="ml-2">2 Beds</span>
+                      </div>
+                      <div class="flex items-center text-sm text-gray-700 mr-4">
+                        <i class="bx bxs-bath text-xl text-gray-400"></i>
+                        <span class="ml-2">3 Baths</span>
+                      </div>
+                      <div class="flex items-center text-sm text-gray-700">
+                        <i class="bx bxs-area text-xl text-gray-400"></i>
+                        <span class="ml-2">1,450 sq. ft.</span>
+                      </div>
+                    </div>
+                    <div class="mt-3 flex items-center flex-wrap">
+                      <button type="button" class="btn mr-4 mt-3 btn--primary btn--minimal btn--sm">
+                        Email property
+                      </button>
+                      <button type="button" class="btn mt-3 btn--primary btn btn--sm">
+                        (404)-3626246
+                      </button>
+                    </div>
+                  </div>
+                  <div class="space-x-3 hidden lg:flex items-start">
+                    <button type="button" class="text-gray-500">
+                      <i class="bx bx-bookmark text-xl"></i>
+                    </button>
+                    <button type="button" class="text-primary">
+                      <i class="bx bxs-heart text-xl"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div class="rounded-lg overflow-hidden bg-white shadow sm:col-span-1 lg:flex">
+                <div class="card-aspect-ratio card-aspect-ratio--70 horizontal-card">
+                  <div class="card__image-count">3/42</div>
+                  <div class="card__image-tag">
+                    <span class="tag tag--primary uppercase">Plus</span>
+                  </div>
+                  <a href="./show.html">
+                    <img
+                      src="https://images.unsplash.com/photo-1472224371017-08207f84aaae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
+                      alt=""
+                      class="card-aspect-ratio__target"
+                    />
+                  </a>
+                </div>
+                <div class="p-4 flex-1 flex justify-between">
+                  <div>
+                    <span class="leading-5 text-gray-500 inline-flex items-center">
+                      <i class="bx bx-refresh mr-1 text-base"></i>
+                      <span class="block text-sm">3 hr. ago</span>
+                    </span>
+                    <h2 class="text-xl font-medium leading-6">
+                      <a href="./show.html" class="hover:text-gray-700">
+                        Modern home in city center
+                      </a>
+                    </h2>
+                    <div class="mt-2">
+                      <span class="leading-6 text-gray-700">Santa Cruz, US</span>
+                      <span class="mx-1">&#xb7;</span>
+                      <span class="leading-6 text-gray-700">
+                        $1,900.00 <span class="text-gray-500">/ wk</span>
+                      </span>
+                    </div>
+                    <div class="mt-2 flex items-center flex-wrap">
+                      <div class="flex items-center text-sm text-gray-700 mr-4">
+                        <i class="bx bxs-bed text-xl text-gray-400"></i>
+                        <span class="ml-2">2 Beds</span>
+                      </div>
+                      <div class="flex items-center text-sm text-gray-700 mr-4">
+                        <i class="bx bxs-bath text-xl text-gray-400"></i>
+                        <span class="ml-2">3 Baths</span>
+                      </div>
+                      <div class="flex items-center text-sm text-gray-700">
+                        <i class="bx bxs-area text-xl text-gray-400"></i>
+                        <span class="ml-2">1,450 sq. ft.</span>
+                      </div>
+                    </div>
+                    <div class="mt-3 flex items-center flex-wrap">
+                      <button type="button" class="btn mr-4 mt-3 btn--primary btn--minimal btn--sm">
+                        Email property
+                      </button>
+                      <button type="button" class="btn mt-3 btn--primary btn btn--sm">
+                        (404)-3626246
+                      </button>
+                    </div>
+                  </div>
+                  <div class="space-x-3 hidden lg:flex items-start">
+                    <button type="button" class="text-gray-500">
+                      <i class="bx bx-bookmark text-xl"></i>
+                    </button>
+                    <button type="button" class="text-primary">
+                      <i class="bx bxs-heart text-xl"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- pagination -->
+            <div class="mt-8">
+              <!-- mobile pagination -->
+              <div class="flex items-center justify-between sm:hidden">
+                <button type="button" class="btn btn--default">
+                  Prev
+                </button>
+                <button type="button" class="btn btn--default">
+                  Next
+                </button>
+              </div>
+              <!-- larger pagination -->
+              <div class="hidden sm:flex items-center justify-between">
+                <p class="text-sm text-gray-700 leading-5">Showing 1 to 4 of 45 results</p>
+                <nav class="flex items-center text-sm -space-x-px shadow-sm rounded-md">
+                  <button
+                    type="button"
+                    class="inline-flex items-center justify-center bg-white px-2 py-2 border border-gray-300 rounded-l-md hover:text-gray-500"
+                  >
+                    <i class="bx bx-chevron-left text-xl"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="inline-flex items-center justify-center bg-white px-4 py-2 border border-gray-300 hover:text-gray-500"
+                  >
+                    1
+                  </button>
+                  <button
+                    type="button"
+                    class="inline-flex items-center justify-center bg-white px-4 py-2 border border-gray-300 hover:text-gray-500"
+                  >
+                    2
+                  </button>
+                  <span
+                    class="inline-flex items-center justify-center bg-white px-3 py-2 border border-gray-300"
+                  >
+                    ...
+                  </span>
+                  <button
+                    type="button"
+                    class="inline-flex items-center justify-center bg-white px-4 py-2 border border-gray-300 hover:text-gray-500"
+                  >
+                    3
+                  </button>
+                  <button
+                    type="button"
+                    class="inline-flex items-center justify-center bg-white px-4 py-2 border border-gray-300 hover:text-gray-500"
+                  >
+                    4
+                  </button>
+                  <button
+                    type="button"
+                    class="inline-flex items-center justify-center bg-white px-2 py-2 border border-gray-300 rounded-r-md hover:text-gray-500"
+                  >
+                    <i class="bx bx-chevron-right text-xl"></i>
+                  </button>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="mt-8 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="py-8 grid grid-cols-2 gap-8 lg:grid-cols-4 sm:gap-x-12">
+          <div class="col-span-2 lg:col-span-1">
+            <img src="./assets/logo-on-white.svg" alt="" />
+            <p class="mt-3 leading-6 text-gray-700 max-w-md text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis cras consequat ornare
+              mi. Nulla lectus mauris bibendum commodo.
+            </p>
+          </div>
+          <div class="grid gap-8 grid-cols-2 col-span-2 sm:grid-cols-3 lg:col-span-3">
+            <div class="col-span-1">
+              <h3 class="uppercase text-primary font-medium">Places</h3>
+              <ul class="space-y-2 mt-3 text-sm text-gray-700">
+                <li><a href="#" class="hover:text-gray-500">California</a></li>
+                <li><a href="#" class="hover:text-gray-500">New York</a></li>
+                <li><a href="#" class="hover:text-gray-500">Dallas</a></li>
+                <li><a href="#" class="hover:text-gray-500">Kolkata</a></li>
+                <li><a href="#" class="hover:text-gray-500">Mumbai</a></li>
+                <li><a href="#" class="hover:text-gray-500">New Orleans</a></li>
+              </ul>
+            </div>
+            <div class="col-span-1">
+              <h3 class="uppercase text-primary font-medium">Pages</h3>
+              <ul class="space-y-2 mt-3 text-sm text-gray-700">
+                <li><a href="./index.html" class="hover:text-gray-500">Home</a></li>
+                <li><a href="#" class="hover:text-gray-500">About</a></li>
+                <li><a href="#" class="hover:text-gray-500">Contact</a></li>
+                <li><a href="#" class="hover:text-gray-500">Terms & conditions</a></li>
+                <li><a href="#" class="hover:text-gray-500">Privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="col-span-1">
+              <h3 class="uppercase text-primary font-medium">Social links</h3>
+              <ul class="flex items-center space-x-3 mt-3 text-sm text-gray-700 -ml-1">
+                <li>
+                  <a href="./index.html" class="hover:text-gray-500 text-2xl">
+                    <i class="bx bxl-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-500 text-2xl">
+                    <i class="bx bxl-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-500 text-2xl">
+                    <i class="bx bxl-instagram-alt"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-500 text-2xl">
+                    <i class="bx bxl-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="border-gray-200" />
+        <!-- secondary footer -->
+        <div class="py-4 sm:flex items-center justify-between text-xs text-gray-500">
+          <p>&#169; Copyright Workflow. All rights reserved.</p>
+          <div class="flex items-center space-x-4 mt-3 sm:mt-0">
+            <a href="#" class="hover:text-gray-700">Terms & Conditions</a>
+            <a href="#" class="hover:text-gray-700">Privacy policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

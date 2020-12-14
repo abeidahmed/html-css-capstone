@@ -1,0 +1,26 @@
+.hero {
+  padding: 48px 0;
+  background: url('../../assets/hero-bg.jpg');
+  background-position: center;
+
+  @include breakpoint(md) {
+    padding: 72px 0;
+  }
+}
+
+.hero__title {
+  font-size: 48px;
+  font-family: $header-font-family;
+  line-height: 40px;
+}
+
+.hero__description {
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.hero__title,
+.hero__description {
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+$trackings: (
+  wider: 0.05em,
+);
+
+@each $prop, $value in $trackings {
+  .tracking-#{$prop} {
+    letter-spacing: $value;
+  }
+}

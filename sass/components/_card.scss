@@ -1,0 +1,165 @@
+.card-aspect-ratio {
+  position: relative;
+}
+
+.card-aspect-ratio__target {
+  @include inset-full;
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-aspect-ratio--56 {
+  padding-bottom: 56%;
+}
+
+.card-aspect-ratio--70 {
+  padding-bottom: 70%;
+}
+
+.card-meta--uplifted {
+  transform: translateY(-50%);
+  margin-bottom: -4rem;
+}
+
+.card__image-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $gray-900;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 8px;
+  z-index: 10;
+}
+
+.card__image-tag {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  z-index: 10;
+}
+
+.card-group--overflowed {
+  @include breakpoint(sm) {
+    overflow-x: auto;
+    display: flex;
+    column-gap: 24px;
+
+    .card {
+      width: 20rem;
+      flex-shrink: 0;
+    }
+  }
+}
+
+.horizontal-card {
+  @include breakpoint(lg) {
+    padding-bottom: 0;
+    display: flex;
+    width: 250px;
+
+    .card-aspect-ratio__target {
+      position: static;
+    }
+  }
+}
+
+.card__deal {
+  height: 256px;
+
+  @include breakpoint(md) {
+    height: 384px;
+  }
+}
+
+.card__deal-meta {
+  text-align: center;
+
+  > h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+
+    @include breakpoint(md) {
+      font-size: 32px;
+      line-height: 36px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 48px;
+      line-height: 48px;
+    }
+  }
+
+  > h5 {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 20px;
+
+    @include breakpoint(md) {
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 28px;
+      margin-top: 16px;
+    }
+  }
+}
+
+.card__deal--gradient {
+  z-index: 10;
+  background: linear-gradient(80deg, rgba(14, 12, 12, 0.8) 40%, rgba(32, 31, 31, 0.484211) 85%, rgba(60, 60, 60, 0) 100%);
+
+  @include inset-full;
+}
+
+.card__deal__left-slider {
+  @include breakpoint(sm) {
+    left: 0;
+    background: linear-gradient(to right, #1f1f1f 0%, rgba(108, 108, 108, 0) 125%);
+  }
+}
+
+.card__deal__right-slider {
+  @include breakpoint(sm) {
+    right: 0;
+    background: linear-gradient(to left, #1f1f1f 0%, rgba(108, 108, 108, 0) 125%);
+  }
+}
+
+.card__deal__left-slider,
+.card__deal__right-slider {
+  display: none;
+
+  @include breakpoint(sm) {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    width: 32px;
+    color: #fff;
+    height: 100%;
+
+    > button {
+      font-size: 24px;
+    }
+  }
+
+  @include breakpoint(md) {
+    padding: 0 24px;
+
+    > button {
+      font-size: 32px;
+    }
+  }
+}

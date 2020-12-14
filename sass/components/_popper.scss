@@ -1,0 +1,20 @@
+.popper {
+  position: relative;
+}
+
+.popper__display {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: $primary;
+  line-height: 20px;
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+}

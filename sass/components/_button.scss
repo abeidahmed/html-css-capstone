@@ -1,0 +1,85 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  position: relative;
+  border-radius: 6px;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: all 150ms ease-in-out;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.search__btn {
+  background-color: $gray-900;
+  color: #fff;
+  width: 100%;
+  line-height: 24px;
+  padding: 12px 48px;
+  border-color: $gray-900;
+
+  &:hover {
+    background-color: lighten($gray-900, 3%);
+  }
+
+  &:active {
+    background-color: darken($gray-900, 5%);
+  }
+}
+
+.btn--default {
+  background-color: #fff;
+  color: $gray-700;
+  border-color: $gray-300;
+
+  &:hover {
+    color: $gray-500;
+  }
+}
+
+.btn--primary {
+  color: #fff;
+  background-color: $primary;
+
+  &:hover {
+    background-color: lighten($primary, 3%);
+  }
+
+  &:active {
+    background-color: darken($primary, 5%);
+  }
+}
+
+.btn--link {
+  color: $gray-700;
+  background-color: transparent;
+
+  &:hover {
+    background-color: $gray-200;
+    border-color: $gray-200;
+  }
+
+  &:active {
+    background-color: $gray-300;
+    border-color: $gray-300;
+  }
+}
+
+.btn--primary.btn--minimal {
+  border-color: $primary;
+  background-color: transparent;
+  color: $primary;
+
+  &:hover {
+    background-color: $primary-lightest;
+  }
+}
+
+.btn--sm {
+  padding: 6px 12px;
+  font-size: 14px;
+}

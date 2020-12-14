@@ -1,0 +1,16 @@
+$backgrounds: (
+  white: #fff,
+  gray-300: $gray-300,
+  gray-800: $gray-800,
+  primary: $primary,
+);
+
+@each $prop, $value in $backgrounds {
+  .bg-#{$prop} {
+    background-color: $value;
+  }
+}
+
+.object-cover {
+  object-fit: cover;
+}

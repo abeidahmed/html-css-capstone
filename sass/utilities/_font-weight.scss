@@ -1,0 +1,10 @@
+$font-weights: (
+  medium: 500,
+  bold: 700,
+);
+
+@each $prop, $value in $font-weights {
+  .font-#{$prop} {
+    font-weight: $value;
+  }
+}

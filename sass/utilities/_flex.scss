@@ -1,0 +1,37 @@
+$align-items: (
+  center: center,
+  start: flex-start,
+);
+
+@each $prop, $value in $align-items {
+  .items-#{$prop} {
+    align-items: $value;
+  }
+}
+
+$justify-contents: (
+  between: space-between,
+  center: center,
+);
+
+@each $prop, $value in $justify-contents {
+  .justify-#{$prop} {
+    justify-content: $value;
+  }
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}

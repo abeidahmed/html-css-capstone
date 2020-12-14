@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/css/app.min.css" />
+    <title>Workflow workcation | Show</title>
+  </head>
+  <body>
+    <header class="bg-gray-800">
+      <div class="max-w-7xl flex items-center justify-between px-4 sm:px-6 lg:px-8 h-14 mx-auto">
+        <div class="flex items-center">
+          <a href="./index.html">
+            <img src="./assets/logo-on-dark.svg" alt="Logo" />
+          </a>
+          <nav class="items-center ml-10 hidden md:flex">
+            <a href="./index.html" class="flex items-center text-gray-500 hover:text-gray-400">
+              <i class="bx bx-home-alt text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Home</span>
+            </a>
+            <a
+              href="./search.html"
+              class="flex items-center text-gray-500 ml-6 hover:text-gray-400"
+            >
+              <i class="bx bx-collection text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Collection</span>
+            </a>
+            <a href="./show.html" class="flex items-center text-gray-500 ml-6 hover:text-gray-400">
+              <i class="bx bx-cart text-2xl"></i>
+              <span class="leading-5 font-medium text-sm ml-2">Purchase list</span>
+            </a>
+            <div class="ml-10">
+              <button type="button" class="btn btn--primary uppercase text-xs">Post an ad</button>
+            </div>
+          </nav>
+        </div>
+        <div class="items-center hidden md:flex">
+          <button type="button" class="text-gray-500 popper hover:text-gray-400 hidden lg:block">
+            <i class="bx bx-message-rounded-dots text-2xl"></i>
+            <span class="popper__display">2</span>
+          </button>
+          <button type="button" class="flex items-center ml-6">
+            <img
+              class="avatar avatar--rounded"
+              src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              alt=""
+            />
+            <span class="text-white text-sm items-center ml-2 hidden lg:flex">
+              John Doe
+              <i class="bx bx-chevron-down text-xl text-gray-500"></i>
+            </span>
+          </button>
+        </div>
+        <div class="flex items-center justify-center md:hidden">
+          <input type="checkbox" id="toggle" class="header__toggle" />
+          <label for="toggle" class="header__burger">
+            <span class="header__burger-bar"></span>
+            <span class="header__burger-bar"></span>
+            <span class="header__burger-bar"></span>
+          </label>
+          <div class="mobile-nav bg-gray-800 pb-6 pt-3 md:hidden px-4 sm:px-6">
+            <nav>
+              <a
+                href="./index.html"
+                class="flex items-center text-gray-500 hover:text-gray-400 py-2"
+              >
+                <i class="bx bx-home-alt text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Home</span>
+              </a>
+              <a
+                href="./search.html"
+                class="flex items-center text-gray-500 hover:text-gray-400 py-2"
+              >
+                <i class="bx bx-collection text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Collection</span>
+              </a>
+              <a
+                href="./show.html"
+                class="flex items-center text-gray-500 hover:text-gray-400 py-2"
+              >
+                <i class="bx bx-cart text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Purchase list</span>
+              </a>
+            </nav>
+            <hr class="my-4 border-gray-600" />
+            <button type="button" class="flex items-center">
+              <img
+                class="avatar avatar--rounded"
+                src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <span class="text-white ml-2">
+                John Doe
+              </span>
+            </button>
+            <nav class="mt-2">
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-user-circle text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Your profile</span>
+              </a>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-cog text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Settings</span>
+              </a>
+              <a href="#" class="flex items-center text-gray-500 hover:text-gray-400 py-2">
+                <i class="bx bx-log-out text-2xl"></i>
+                <span class="leading-5 font-medium ml-2">Logout</span>
+              </a>
+            </nav>
+            <div>
+              <button type="button" class="btn btn--primary uppercase text-xs mt-6 w-full">
+                Post an ad
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="mt-8 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- hero -->
+      <div class="md:grid grid-cols-2 gap-6">
+        <!-- left -->
+        <div class="card-aspect-ratio card-aspect-ratio--70 col-span-1">
+          <img
+            src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            alt=""
+            class="rounded-lg card-aspect-ratio__target"
+          />
+        </div>
+        <!-- right -->
+        <div class="mt-4 col-span-1 md:mt-0">
+          <h1 class="text-lg font-medium">Neighborhood overview</h1>
+          <div class="mt-3 grid grid-cols-2 gap-3">
+            <!-- icons -->
+            <div class="flex items-center col-span-1">
+              <i class="bx bx-money bx-md text-gray-500"></i>
+              <div class="ml-3 text-sm">
+                <span class="block text-gray-700 leading-5">Buy:</span>
+                <span class="block leading-5">$49k - $56k</span>
+              </div>
+            </div>
+            <div class="flex items-center col-span-1">
+              <i class="bx bx-credit-card-front bx-md text-gray-500"></i>
+              <div class="ml-3 text-sm">
+                <span class="block text-gray-700 leading-5">Rent:</span>
+                <span class="block leading-5">$5k - $7k</span>
+              </div>
+            </div>
+            <div class="flex items-center col-span-1">
+              <i class="bx bx-wifi bx-md text-gray-500"></i>
+              <div class="ml-3 text-sm">
+                <span class="block text-gray-700 leading-5">Wifi:</span>
+                <span class="block leading-5">24 / 7</span>
+              </div>
+            </div>
+            <div class="flex items-center col-span-1">
+              <i class="bx bx-car bx-md text-gray-500"></i>
+              <div class="ml-3 text-sm">
+                <span class="block text-gray-700 leading-5">Commute:</span>
+                <span class="block leading-5">Not calculated</span>
+              </div>
+            </div>
+          </div>
+          <!-- map and aerial -->
+          <div class="mt-4 grid grid-cols-2 justify-between gap-4">
+            <div class="card-aspect-ratio shadow-md rounded-lg card-aspect-ratio--56">
+              <div class="overlay overlay--dark rounded-lg"></div>
+              <div
+                class="absolute text-white z-50 inset-center uppercase text-lg font-bold tracking-wider"
+              >
+                Map
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                alt=""
+                class="rounded-lg card-aspect-ratio__target"
+              />
+            </div>
+            <div class="card-aspect-ratio shadow-md rounded-lg card-aspect-ratio--56">
+              <div class="overlay overlay--dark rounded-lg"></div>
+              <div
+                class="absolute text-white z-50 inset-center uppercase text-lg font-bold tracking-wider"
+              >
+                Aerial
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1513880989635-6eb491ce7f5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                alt=""
+                class="rounded-lg card-aspect-ratio__target"
+              />
+            </div>
+          </div>
+          <!-- interior -->
+          <div class="mt-4">
+            <h4 class="text-sm leading-5">Interiors</h4>
+            <div class="mt-1 grid grid-cols-4 gap-4">
+              <div
+                class="h-20 col-span-1 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+                  alt=""
+                  class="w-full h-full flex-shrink-0 object-cover"
+                />
+              </div>
+              <div
+                class="h-20 col-span-1 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1558971089-826136b64bd9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+                  alt=""
+                  class="w-full h-full flex-shrink-0 object-cover"
+                />
+              </div>
+              <div
+                class="h-20 col-span-1 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1579283111514-ecb6229ee528?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+                  alt=""
+                  class="w-full h-full flex-shrink-0 object-cover"
+                />
+              </div>
+              <div
+                class="h-20 col-span-1 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1558971090-c42dbad443e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+                  alt=""
+                  class="w-full h-full flex-shrink-0 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="mt-8">
+        <h2 class="text-lg font-medium">Explore more</h2>
+        <!-- tabs -->
+        <div class="mt-4 overflow-x-hidden">
+          <nav class="flex items-center pb-4 justify-between overflow-x-auto">
+            <button type="button" class="btn btn--primary btn--minimal">Restaurants</button>
+            <button type="button" class="btn btn--link">Groceries</button>
+            <button type="button" class="btn btn--link">Night life</button>
+            <button type="button" class="btn btn--link">Cafes</button>
+            <button type="button" class="btn btn--link">Shopping</button>
+            <button type="button" class="btn btn--link">Arts & entertainment</button>
+            <button type="button" class="btn btn--link">Fitness</button>
+          </nav>
+        </div>
+        <div>
+          <!-- map -->
+          <div class="rounded-lg overflow-hidden">
+            <iframe
+              height="304"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(Workflow)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              class="w-full"
+            ></iframe>
+          </div>
+          <!-- cards -->
+          <div class="mt-4 overflow-x-hidden">
+            <div class="flex overflow-x-auto gap-4 pb-3">
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">
+                    <a href="#" class="hover:text-gray-500">
+                      Breakfast
+                    </a>
+                  </h5>
+                  <p class="text-xs text-gray-500 leading-5">Shopping</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1541173109020-9c5d8a48e169?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">
+                    <a href="#" class="hover:text-gray-500">
+                      New Orleans special
+                    </a>
+                  </h5>
+                  <p class="text-xs text-gray-500 leading-5">Cafe</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">
+                    <a href="#" class="hover:text-gray-500">
+                      Hair wax and spa
+                    </a>
+                  </h5>
+                  <p class="text-xs text-gray-500 leading-5">Fitness</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">
+                    <a href="#" class="hover:text-gray-500">
+                      LA Fitness
+                    </a>
+                  </h5>
+                  <p class="text-xs text-gray-500 leading-5">Fitness</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">
+                    <a href="#" class="hover:text-gray-500">
+                      Calvin and chipmunks
+                    </a>
+                  </h5>
+                  <p class="text-xs text-gray-500 leading-5">Shopping</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">
+                    <a href="#" class="hover:text-gray-500">
+                      Stacy’s Bar
+                    </a>
+                  </h5>
+                  <p class="text-xs text-gray-500 leading-5">Night life</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">
+                    <a href="#" class="hover:text-gray-500">
+                      Mc Arthur
+                    </a>
+                  </h5>
+                  <p class="text-xs text-gray-500 leading-5">Cafe</p>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="w-25 h-25 rounded-lg flex-shrink-0 rounded-lg overflow-hidden shadow-md"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                    alt=""
+                    class="w-25 h-25 flex-shrink-0 object-cover"
+                  />
+                </div>
+                <div class="mt-2">
+                  <h5 class="text-sm leading-5">
+                    <a href="#" class="hover:text-gray-500">
+                      Yell-it
+                    </a>
+                  </h5>
+                  <p class="text-xs text-gray-500 leading-5">Bar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- neighbor section -->
+      <section class="mt-5">
+        <h2 class="text-lg font-medium">What neighbors say</h2>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+          <div class="flex items-center sm:col-span-1">
+            <div class="tag tag--lg tag--primary rounded-md">
+              <i class="bx bx-like text-xl"></i>
+              <span class="ml-2 block">78%</span>
+            </div>
+            <h5 class="ml-3 text-sm leading-5">It’s dog friendly</h5>
+          </div>
+          <div class="flex items-center sm:col-span-1">
+            <div class="tag tag--lg tag--primary rounded-md">
+              <i class="bx bx-like text-xl"></i>
+              <span class="ml-2 block">48%</span>
+            </div>
+            <h5 class="ml-3 text-sm leading-5">Can walk alone at night</h5>
+          </div>
+          <div class="flex items-center sm:col-span-1">
+            <div class="tag tag--lg tag--primary rounded-md">
+              <i class="bx bx-like text-xl"></i>
+              <span class="ml-2 block">65%</span>
+            </div>
+            <h5 class="ml-3 text-sm leading-5">There are sidewalks</h5>
+          </div>
+          <div class="flex items-center sm:col-span-1">
+            <div class="tag tag--lg tag--primary rounded-md">
+              <i class="bx bx-like text-xl"></i>
+              <span class="ml-2 block">98%</span>
+            </div>
+            <h5 class="ml-3 text-sm leading-5">Walkable to restaurants</h5>
+          </div>
+          <div class="flex items-center sm:col-span-1">
+            <div class="tag tag--lg tag--primary rounded-md">
+              <i class="bx bx-like text-xl"></i>
+              <span class="ml-2 block">56%</span>
+            </div>
+            <h5 class="ml-3 text-sm leading-5">Street’s are well-lit</h5>
+          </div>
+          <div class="flex items-center sm:col-span-1">
+            <div class="tag tag--lg tag--primary rounded-md">
+              <i class="bx bx-like text-xl"></i>
+              <span class="ml-2 block">48%</span>
+            </div>
+            <h5 class="ml-3 text-sm leading-5">Festive community</h5>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="mt-8 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="py-8 grid grid-cols-2 gap-8 lg:grid-cols-4 sm:gap-x-12">
+          <div class="col-span-2 lg:col-span-1">
+            <img src="./assets/logo-on-white.svg" alt="" />
+            <p class="mt-3 leading-6 text-gray-700 max-w-md text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis cras consequat ornare
+              mi. Nulla lectus mauris bibendum commodo.
+            </p>
+          </div>
+          <div class="grid gap-8 grid-cols-2 col-span-2 sm:grid-cols-3 lg:col-span-3">
+            <div class="col-span-1">
+              <h3 class="uppercase text-primary font-medium">Places</h3>
+              <ul class="space-y-2 mt-3 text-sm text-gray-700">
+                <li><a href="#" class="hover:text-gray-500">California</a></li>
+                <li><a href="#" class="hover:text-gray-500">New York</a></li>
+                <li><a href="#" class="hover:text-gray-500">Dallas</a></li>
+                <li><a href="#" class="hover:text-gray-500">Kolkata</a></li>
+                <li><a href="#" class="hover:text-gray-500">Mumbai</a></li>
+                <li><a href="#" class="hover:text-gray-500">New Orleans</a></li>
+              </ul>
+            </div>
+            <div class="col-span-1">
+              <h3 class="uppercase text-primary font-medium">Pages</h3>
+              <ul class="space-y-2 mt-3 text-sm text-gray-700">
+                <li><a href="./index.html" class="hover:text-gray-500">Home</a></li>
+                <li><a href="#" class="hover:text-gray-500">About</a></li>
+                <li><a href="#" class="hover:text-gray-500">Contact</a></li>
+                <li><a href="#" class="hover:text-gray-500">Terms & conditions</a></li>
+                <li><a href="#" class="hover:text-gray-500">Privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="col-span-1">
+              <h3 class="uppercase text-primary font-medium">Social links</h3>
+              <ul class="flex items-center space-x-3 mt-3 text-sm text-gray-700 -ml-1">
+                <li>
+                  <a href="./index.html" class="hover:text-gray-500 text-2xl">
+                    <i class="bx bxl-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-500 text-2xl">
+                    <i class="bx bxl-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-500 text-2xl">
+                    <i class="bx bxl-instagram-alt"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-500 text-2xl">
+                    <i class="bx bxl-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="border-gray-200" />
+        <!-- secondary footer -->
+        <div class="py-4 sm:flex items-center justify-between text-xs text-gray-500">
+          <p>&#169; Copyright Workflow. All rights reserved.</p>
+          <div class="flex items-center space-x-4 mt-3 sm:mt-0">
+            <a href="#" class="hover:text-gray-700">Terms & Conditions</a>
+            <a href="#" class="hover:text-gray-700">Privacy policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

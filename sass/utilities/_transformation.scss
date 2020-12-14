@@ -1,0 +1,7 @@
+$text-transformations: (uppercase);
+
+@each $value in $text-transformations {
+  .#{$value} {
+    text-transform: $value;
+  }
+}
